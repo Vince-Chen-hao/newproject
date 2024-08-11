@@ -264,7 +264,7 @@
           <div class="col-md-6 my-1">
             <div class="l-bg-cover rounded type04 img-thumbnail">
               <router-link class="black-cover" to="/product_list">
-                <span class="h4">專業團隊</span>
+                <span class="h4">團隊分工</span>
               </router-link>
             </div>
           </div>

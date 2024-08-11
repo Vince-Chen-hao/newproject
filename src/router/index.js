@@ -4,6 +4,8 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 export default new VueRouter({
+  mode: 'history',  // 添加这一行
+
   routes: [
     {
       // 錯誤網址會導至登入面
