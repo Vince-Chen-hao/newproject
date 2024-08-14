@@ -59,7 +59,7 @@
           <img src="../../assets/images/facebook3.png" width="60px" />
         </div>
         <div class="col-1">
-          <img src="../../assets/images/Shopee2.png" width="60px" />
+          <img src="../../assets/images/shopee3.jpg" width="60px" />
         </div>
 
         <div class="col-1">

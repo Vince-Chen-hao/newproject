@@ -291,7 +291,7 @@
             <div class="col-lg-2 col-6">
               <div class="card mb-5">
                 <div class="card-body">
-                  <img src="../../assets/images/Shopee2.png" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+                  <img src="../../assets/images/shopee3.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
                   <h5>蝦皮賣場</h5>
                   <p class="ellipsis">清洗完後像新的一樣，因軟管破損順便換新的，濾心賣家還換了一組新的給我</p>
                 </div>
@@ -302,7 +302,7 @@
                       href="https://shopee.tw/%E3%80%90%E6%B8%85%E6%B8%85%E5%B0%8F%E6%A3%AE-dyson-%E6%B8%85%E4%B8%80%E6%B8%85%E3%80%91%E6%B7%B1%E5%B1%A4%E6%B8%85%E7%90%86%E6%B8%85%E6%BD%94-%E6%88%B4%E6%A3%AE-dyson-%E5%90%B8%E5%A1%B5%E5%99%A8-%E9%9B%BB%E5%8B%95%E5%90%B8%E9%A0%AD-900%E8%B5%B7-%E5%85%A8%E5%8F%B07-11%E6%94%B6%E9%80%81%E4%BB%B6-i.3918719.461535767?srsltid=AfmBOory6i1RKFi0doazzwgpDANfXy6EcMArGtdRoDl-4SWh5Pwz95Lv"
                       target="_blank"
                     >
-                      <img src="../../assets/images/Shopee2.png" alt="" class="mb-1 rounded-circle" width="15px" />
+                      <img src="../../assets/images/shopee3.jpg" alt="" class="mb-1 rounded-circle" width="15px" />
                       賣場評論
                     </a>
                   </div>
