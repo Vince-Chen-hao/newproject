@@ -1,5 +1,12 @@
 <template>
   <div class="coupon-section">
+    <div class="share-icon-container">
+      <a href="https://www.messenger.com/" target="_blank" class="share-icon-container">
+        <div class="share-icon">
+          <img src="../../assets/images/messenger.png" width="60px" alt="" />
+        </div>
+      </a>
+    </div>
     <div class="coupon-bg d-flex justify-content-center align-items-center"></div>
     <div class="container">
       <div class="h3 my-4 discount-title p-4">
@@ -27,9 +34,7 @@
       return {}
     },
 
-    methods: {
-
-    },
+    methods: {},
   }
 </script>
 
@@ -42,14 +47,6 @@
     h4 {
       color: rgb(116, 113, 113);
     }
-  }
-
-  .coupon-bg {
-    background-image: url('../../assets/images/top.jpg');
-    background-position: center center;
-    background-size: cover;
-    height: 200px;
-    margin-top: 90px;
   }
 
   .discount-title {

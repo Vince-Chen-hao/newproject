@@ -4,7 +4,12 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 export default new VueRouter({
-  mode: 'history',  // 添加这一行
+  mode: 'history', // 添加这一行
+
+  scrollBehavior(to, from, savedPosition) {
+    // 始终滚动到顶部
+    return { x: 0, y: 0 }
+  },
 
   routes: [
     {
@@ -28,6 +33,12 @@ export default new VueRouter({
           path: 'News',
           name: 'CouponPage',
           component: () => import('@/views/Front/News.vue'),
+        },
+
+        {
+          path: 'Review',
+          name: 'Review',
+          component: () => import('@/views/Front/Review.vue'),
         },
 
         {

@@ -1,12 +1,46 @@
 <template>
   <div class="coupon-section">
+    <!-- <div class="share-icon-container">
+      <a href="https://www.messenger.com/" target="_blank" class="share-icon-container">
+        <div class="share-icon">
+          <img src="../../assets/images/messenger.png" width="60px" alt="" />
+        </div>
+      </a>
+    </div>-->
     <div class="coupon-bg d-flex justify-content-center align-items-center"></div>
     <div class="container">
-      <div class="h3 my-4 discount-title p-4">
-        <span class="icon">
-          <i class="fas fa-mobile-alt"></i>
-        </span>
-        預約維修
+      <div class="h3 my-4 discount-title p-4">預約清潔</div>
+
+      <div class="mb-5 py-2 text-left">
+        <h4>機型價格</h4>
+
+        <div class="border_tw2 mt-2"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <img src="../../assets/images/price/sv18.png" class="img-fluid" alt="" />
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <img src="../../assets/images/price/v11.png" class="img-fluid" alt="" />
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <img src="../../assets/images/price/v10.png" class="img-fluid" alt="" />
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <img src="../../assets/images/price/v8.png" class="img-fluid" alt="" />
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <img src="../../assets/images/price/v7.png" class="img-fluid" alt="" />
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <img src="../../assets/images/price/v6.png" class="img-fluid" alt="" />
+        </div>
       </div>
 
       <div>＃維修流程說明</div>
@@ -18,18 +52,18 @@
       <!-- <div class="my-3 h5">請點擊圖示立即詢問</div> -->
 
       <div class="row align-items-center">
-        <div class="col-2">
-          <img src="../../assets/images/me2.png" class="img-fluid" />
+        <div class="col-1">
+          <img src="../../assets/images/messenger3.png" width="60px" />
         </div>
-        <div class="col-2">
-          <img src="../../assets/images/fb2.jpg" class="img-fluid" />
+        <div class="col-1">
+          <img src="../../assets/images/facebook3.png" width="60px" />
         </div>
-        <div class="col-2">
-          <img src="../../assets/images/shopee2.png" class="img-fluid" />
+        <div class="col-1">
+          <img src="../../assets/images/Shopee2.png" width="60px" />
         </div>
 
-        <div class="col-2">
-          <img src="../../assets/images/gmail2.png" class="img-fluid" />
+        <div class="col-1">
+          <img src="../../assets/images/gmail5.png" width="63px" />
         </div>
       </div>
     </div>
@@ -59,18 +93,10 @@
     }
   }
 
-  .coupon-bg {
-    background-image: url('../../assets/images/coupon02.jpg');
-    background-position: center center;
-    background-size: cover;
-    height: 200px;
-    margin-top: 90px;
-  }
-
   .discount-title {
     font-size: 37px;
     font-weight: 300;
-    border-bottom: 1px dashed rgb(206, 204, 201);
+    // border-bottom: 1px dashed rgb(206, 204, 201);
     letter-spacing: 3px;
     .icon {
       font-size: 30px;
@@ -114,5 +140,11 @@
     100% {
       opacity: 1;
     }
+  }
+
+  .border_tw2 {
+    height: 1px;
+    border-left: 100px solid red;
+    background: #e1e2e4;
   }
 </style>

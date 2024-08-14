@@ -7,10 +7,7 @@
         折優惠！！
       </marquee>
     </div> -->
-    <nav
-      class="navbar navbar-expand-sm navbar-dark fixed-top  shadow-sm"
-      style="background:#14181a"
-    >
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top shadow-sm" style="background: #14181a">
       <div class="container">
         <a href="index.html" class="navbar-brand">
           <img src="../../assets/images/Logo7.png" width="180px" alt="" />
@@ -20,28 +17,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item ">
+            <li class="nav-item">
               <router-link to="/" @click.native="closeMenu" class="nav-link">首頁 </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/About" @click.native="closeMenu" class="nav-link"
-                >關於我們
-              </router-link>
+              <router-link to="/About" @click.native="closeMenu" class="nav-link">服務流程 </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/News" @click.native="closeMenu" class="nav-link"
-                >最新消息
-              </router-link>
+              <router-link to="/Review" @click.native="closeMenu" class="nav-link">客戶評價 </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/Contact" @click.native="closeMenu" class="nav-link"
-                >預約維修
-              </router-link>
+              <router-link to="/Contact" @click.native="closeMenu" class="nav-link">預約清潔 </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/QA" @click.native="closeMenu" class="nav-link"
-                >常見問題
-              </router-link>
+              <router-link to="/QA" @click.native="closeMenu" class="nav-link">常見問題 </router-link>
             </li>
           </ul>
         </div>
@@ -51,101 +40,101 @@
 </template>
 
 <script>
-import $ from "jquery";
-// import { mapGetters } from "vuex";
+  import $ from 'jquery'
+  // import { mapGetters } from "vuex";
 
-export default {
-  data() {
-    return {};
-  },
+  export default {
+    data() {
+      return {}
+    },
 
-  methods: {
-    closeMenu() {
-      $("#navbarSupportedContent").collapse("hide");
-    }
-  },
+    methods: {
+      closeMenu() {
+        $('#navbarSupportedContent').collapse('hide')
+      },
+    },
 
-  // computed: {
-  //   ...mapGetters(["cartNum"])
-  // }
-};
+    // computed: {
+    //   ...mapGetters(["cartNum"])
+    // }
+  }
 </script>
 
 <style lang="scss" scoped>
-.marquee {
-  background: rgba(67, 83, 81, 0.781);
-  color: #fff;
-  padding: 2px 5%;
-  display: flex;
-  font-size: 15px;
+  .marquee {
+    background: rgba(67, 83, 81, 0.781);
+    color: #fff;
+    padding: 2px 5%;
+    display: flex;
+    font-size: 15px;
 
-  span {
-    display: inline-block;
-    padding: 0px 10px;
-    font-size: 15x;
-    border-radius: 3px;
-    white-space: nowrap;
-  }
-}
-
-.logo {
-  font-size: 22px;
-  font-weight: bold;
-  font-family: serif;
-  text-shadow: 1px 1px 1px rgb(209, 207, 207);
-}
-
-.naver-title {
-  font-size: 15px;
-}
-
-.nav-link {
-  position: relative;
-  display: flex;
-  justify-content: center;
-
-  @media (min-width: 768px) {
-    &::before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      height: 1px;
-      width: 0px;
-      background: rgba(240, 227, 109, 0.781);
-      transition: width 0.6s;
-    }
-    &:hover::before {
-      width: 100%;
-    }
-
-    &.router-link-exact-active {
-      font-weight: bold;
-      border-bottom: 2px solid rgba(240, 227, 109, 0.781);
-      color: white !important;
+    span {
+      display: inline-block;
+      padding: 0px 10px;
+      font-size: 15x;
+      border-radius: 3px;
+      white-space: nowrap;
     }
   }
 
-  @media (max-width: 768px) {
-    border-bottom: 1px solid rgba(65, 54, 54, 0.3);
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: serif;
+    text-shadow: 1px 1px 1px rgb(209, 207, 207);
+  }
 
-    &:hover {
-      background: rgb(250, 238, 217);
+  .naver-title {
+    font-size: 15px;
+  }
+
+  .nav-link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    @media (min-width: 768px) {
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 1px;
+        width: 0px;
+        background: rgba(240, 227, 109, 0.781);
+        transition: width 0.6s;
+      }
+      &:hover::before {
+        width: 100%;
+      }
+
+      &.router-link-exact-active {
+        font-weight: bold;
+        border-bottom: 2px solid rgba(240, 227, 109, 0.781);
+        color: white !important;
+      }
     }
 
-    &.router-link-exact-active {
-      font-weight: bold;
-      font-size: 17px;
-      background: rgb(248, 234, 203);
-      color: white !important;
+    @media (max-width: 768px) {
+      border-bottom: 1px solid rgba(65, 54, 54, 0.3);
+
+      &:hover {
+        background: rgb(250, 238, 217);
+      }
+
+      &.router-link-exact-active {
+        font-weight: bold;
+        font-size: 17px;
+        background: rgb(248, 234, 203);
+        color: white !important;
+      }
     }
   }
-}
 
-.badge {
-  transform: translate(-13px, -15px);
-  font-size: 11px;
-  background-color: #df6b57;
-  color: #fff;
-}
+  .badge {
+    transform: translate(-13px, -15px);
+    font-size: 11px;
+    background-color: #df6b57;
+    color: #fff;
+  }
 </style>

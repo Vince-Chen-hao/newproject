@@ -13,7 +13,7 @@
         <span class="icon">
           <i class="fas fa-ticket-alt"></i>
         </span>
-        優惠快訊
+        客戶評價
       </div>
       <div class="container">
         <div class="row justify-content-start">
@@ -113,14 +113,6 @@
     h4 {
       color: rgb(116, 113, 113);
     }
-  }
-
-  .coupon-bg {
-    background-image: url('../../assets/images/coupon02.jpg');
-    background-position: center center;
-    background-size: cover;
-    height: 200px;
-    margin-top: 90px;
   }
 
   .discount-title {

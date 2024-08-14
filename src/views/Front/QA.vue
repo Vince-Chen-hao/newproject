@@ -1,12 +1,19 @@
 <template>
   <div class="coupon-section">
+    <div class="share-icon-container">
+      <a href="https://www.messenger.com/" target="_blank" class="share-icon-container">
+        <div class="share-icon">
+          <img src="../../assets/images/messenger.png" width="60px" alt="" />
+        </div>
+      </a>
+    </div>
     <div class="coupon-bg d-flex justify-content-center align-items-center"></div>
     <div class="container">
       <div class="h3 m-4 text-center discount-title p-4">
         <span class="icon">
           <i class="fas fa-ticket-alt"></i>
         </span>
-        優惠快訊
+        常見問題
       </div>
       <div class="container">
         <div class="row justify-content-start">
@@ -104,14 +111,6 @@
     h4 {
       color: rgb(116, 113, 113);
     }
-  }
-
-  .coupon-bg {
-    background-image: url('../../assets/images/coupon02.jpg');
-    background-position: center center;
-    background-size: cover;
-    height: 200px;
-    margin-top: 90px;
   }
 
   .discount-title {
