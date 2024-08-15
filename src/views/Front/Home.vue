@@ -2,6 +2,9 @@
   <div>
     <section class="HomeSection">
       <!-- 彈出式蓋板 -->
+<div class="d-none d-md-block">
+
+
 
       <div class="share-icon-container">
         <div class="share-icon">
@@ -12,6 +15,24 @@
           <div class="contact-text">線上詢問</div>
         </div>
       </div>
+      </div>
+
+      <div class="d-block d-md-none">
+
+
+
+      <div class="fixed-bottom-container py-3">
+      <a href="https://m.me/cleands717" target="_blank" class="icon facebook"  title="Facebook">
+       <img src="../../assets/images/messenger.png" width="50px" alt="">
+      </a>
+      <a href="https://line.me" class="icon line" target="_blank" title="LINE">
+       <img src="../../assets/images/line.png" width="50px" alt="">
+      </a>
+      <span id="SliderTop" class="icon top" title="置頂">
+       <img src="../../assets/images/uparrow.png" width="50px" alt="">
+      </span>
+    </div>
+    </div>
 
       <!-- <div class="share-icon-container" @click="toggleIcons">
         <div v-if="!showSocialIcons" class="share-icon">
@@ -26,8 +47,11 @@
         </div>
       </div> -->
       <!-- 點擊滑動置頂 -->
+
+      <div class="d-none d-md-block">
       <div id="SliderTop">
         <img class="SliderTop-img" src="../../assets/images/up3.png" alt="cart" />
+      </div>
       </div>
 
       <!-- SHOWCASE SLIDER -->
@@ -697,4 +721,44 @@
     height: 100%;
     object-fit: cover; /* 避免視頻變形 */
   }
+
+  .fixed-bottom-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #343a40; /* 背景顏色，可根據需求調整 */
+  padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* 可選的陰影效果 */
+  z-index: 1000; /* 確保它在其他內容之上 */
+}
+
+.fixed-bottom-container .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: #000; /* 圖標顏色，可根據需求調整 */
+  text-decoration: none;
+}
+
+.fixed-bottom-container .icon:hover {
+  color: #007bff; /* 圖標懸停顏色，可根據需求調整 */
+}
+
+.icon.facebook {
+  /* Facebook 標誌的樣式 */
+}
+
+.icon.line {
+  /* LINE 標誌的樣式 */
+}
+
+.icon.top {
+  /* 置頂標誌的樣式 */
+}
 </style>

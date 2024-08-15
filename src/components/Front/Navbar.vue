@@ -125,7 +125,7 @@
       &.router-link-exact-active {
         font-weight: bold;
         font-size: 17px;
-        background: rgb(248, 234, 203);
+        background: #536471;
         color: white !important;
       }
     }
