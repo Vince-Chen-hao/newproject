@@ -1,7 +1,10 @@
 <template>
   <div>
     <Navbar />
-    <router-view></router-view>
+
+    <div style="min-height: 600px">
+      <router-view></router-view>
+    </div>
     <Footer></Footer>
   </div>
 </template>
@@ -77,10 +80,10 @@
   }
 
   .coupon-bg {
-    background-image: url('../../assets/images/top.png');
+    background-image: url('../../assets/images/bg1.png');
     background-position: center center;
     background-size: cover;
-    height: 210px;
+    height: 140px;
     margin-top: 80px;
   }
 </style>

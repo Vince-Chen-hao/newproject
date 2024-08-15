@@ -1,7 +1,7 @@
 <template>
   <div class="coupon-section">
     <!-- <div class="share-icon-container">
-      <a href="https://www.messenger.com/" target="_blank" class="share-icon-container">
+      <a href="https://m.me/cleands717" target="_blank" class="share-icon-container">
         <div class="share-icon">
           <img src="../../assets/images/messenger.png" width="60px" alt="" />
         </div>
@@ -59,7 +59,7 @@
           <img src="../../assets/images/facebook3.png" width="60px" />
         </div>
         <div class="col-1">
-          <img src="../../assets/images/shopee3.jpg" width="60px" />
+          <img src="../../assets/images/Shopee2.png" width="60px" />
         </div>
 
         <div class="col-1">

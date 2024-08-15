@@ -1,7 +1,7 @@
 <template>
   <div class="coupon-section">
     <div class="share-icon-container">
-      <a href="https://www.messenger.com/" target="_blank" class="share-icon-container">
+      <a href="https://m.me/cleands717" target="_blank" class="share-icon-container">
         <div class="share-icon">
           <img src="../../assets/images/messenger.png" width="60px" alt="" />
         </div>

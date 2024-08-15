@@ -5,7 +5,7 @@
 
       <div class="share-icon-container">
         <div class="share-icon">
-          <a href="https://www.messenger.com/" target="_blank">
+          <a href="https://m.me/cleands717" target="_blank">
             <img src="../../assets/images/messenger.png" width="60px" alt="" />
           </a>
 
@@ -40,13 +40,10 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active w-100">
-              <img src="../../assets/images/cover04.jpg" class="d-block w-100" alt="..." />
+              <img src="../../assets/images/home11.png" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/cover02.jpg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="../../assets/images/cover03.jpg" class="d-block w-100" alt="..." />
+              <img src="../../assets/images/home12.png" class="d-block w-100" alt="..." />
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -61,7 +58,7 @@
       </section>
 
       <section id="CategoryList">
-        <div class="container my-5">
+        <div class="container my-4">
           <ul class="row mr-4 category-list justify-content-around">
             <li
               class="col-md-3 col-6"
@@ -70,7 +67,7 @@
               @click.prevent="linkProductlist"
             >
               <i :class="category.icon" class="py-auto"></i>
-              <ul style="list-style-type: none">
+              <ul style="list-style-type: none; font-size: 18px">
                 <li>{{ category.name }}</li>
                 <li>{{ category.title }}</li>
               </ul>
@@ -100,53 +97,43 @@
       </section>
 
       <!-- Brandspirit SECTION -->
-      <div class="bg-light text-muted py-5">
+      <div class="bg-light text-muted py-4">
         <div class="container">
           <div class="row justify-content-between align-items-center">
-            <div class="col-lg-4">
+            <div class="col-lg-3">
               <img src="../../assets/images/Logo.jpg" alt="" class="img-thumbnail img-fluid mb-3 rounded-circle" />
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-7" style="font-size: 19px">
               <h1>服務項目</h1>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias laborum
-                odit aliquid tempore perspiciatis repudiandae hic?
-              </p>
-              <div class="d-flex align-items-center mb-3">
-                <div class="mr-4">
-                  <i class="fas fa-check-circle fa-2x"></i>
-                </div>
-                <div>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia
-                  natus harum?
-                </div>
-              </div>
 
-              <div class="d-flex align-items-center mb-3">
-                <div class="mr-4">
-                  <i class="fas fa-check-circle fa-2x"></i>
+              <hr />
+
+              <div class="ml-md-5 ml-2 text-left" style="color: #313131">
+                <div class="d-flex align-items-center mb-3 mt-4">
+                  <div class="mr-4">
+                    <img src="../../assets/images/check4.png" width="30px" alt="" />
+                  </div>
+                  <div>Dyson主機與刷頭的專業清洗服務</div>
                 </div>
-                <div>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia
-                  natus harum?
+
+                <div class="d-flex align-items-center mb-3">
+                  <div class="mr-4">
+                    <img src="../../assets/images/check4.png" width="30px" alt="" />
+                  </div>
+                  <div>Dyson 吸塵器零件銷售與更換</div>
                 </div>
-              </div>
-              <div class="d-flex align-items-center mb-3">
-                <div class="mr-4">
-                  <i class="fas fa-check-circle fa-2x"></i>
+
+                <div class="d-flex align-items-center mb-3">
+                  <div class="mr-4">
+                    <img src="../../assets/images/check4.png" width="30px" alt="" />
+                  </div>
+                  <div>吸塵器濾心清洗與更換服務</div>
                 </div>
-                <div>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia
-                  natus harum?
-                </div>
-              </div>
-              <div class="d-flex align-items-center">
-                <div class="mr-4">
-                  <i class="fas fa-check-circle fa-2x"></i>
-                </div>
-                <div>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia
-                  natus harum?
+                <div class="d-flex align-items-center mb-3">
+                  <div class="mr-4">
+                    <img src="../../assets/images/check4.png" width="30px" alt="" />
+                  </div>
+                  <div>吸塵器吸力與性能檢測及調整建議</div>
                 </div>
               </div>
             </div>
@@ -155,7 +142,7 @@
       </div>
 
       <!-- Teams-head-section -->
-      <section id="Teams-head-section" class="my-5 text-center text-dark py-5" style="background: #1f2d35">
+      <section id="Teams-head-section" class="text-center text-dark py-5" style="background: #1f2d35">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -165,12 +152,12 @@
                   網友推薦評論
                   <img src="../../assets/images/star3.png" width="30px" alt="" />
                 </h1>
-                <p class="lead text-light pb-3">
+                <div class="lead text-light pb-3">
                   我們的吸塵器清洗服務深受廣大客戶的信賴，並在 Facebook 和蝦皮上獲得超過 400 則正面評價
                   <i class="far fa-thumbs-up"></i> <i class="far fa-thumbs-up"></i>。
                   <br />
-                  每一則好評都是對我們專業與用心的肯定，選擇我們，讓您的吸塵器煥然一新！
-                </p>
+                  <div class="mt-md-0 mt-2">每一則好評都是對我們專業與用心的肯定，選擇我們，讓您的吸塵器煥然一新！</div>
+                </div>
               </div>
             </div>
           </div>
@@ -205,10 +192,7 @@
                 <div class="card-body">
                   <img src="../../assets/images/share3.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
                   <h5>Irenebaby</h5>
-                  <p class="ellipsis">
-                    ［ 我們的Dyson無線手持系列吸塵器清潔交給 清清小森-職人洗塵 來守護
-                    ］，雖然本人最近狂熱用Bissell五合一無線吸塵洗地機清潔
-                  </p>
+                  <p class="ellipsis">我們的Dyson無線手持系列吸塵器清潔交給清清小森-職人洗塵來守護</p>
                 </div>
 
                 <div class="d-flex justify-content-center">
@@ -291,7 +275,7 @@
             <div class="col-lg-2 col-6">
               <div class="card mb-5">
                 <div class="card-body">
-                  <img src="../../assets/images/shopee3.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+                  <img src="../../assets/images/Shopee2.png" alt="" class="img-fluid rounded-circle w-50 mb-3" />
                   <h5>蝦皮賣場</h5>
                   <p class="ellipsis">清洗完後像新的一樣，因軟管破損順便換新的，濾心賣家還換了一組新的給我</p>
                 </div>
@@ -302,7 +286,7 @@
                       href="https://shopee.tw/%E3%80%90%E6%B8%85%E6%B8%85%E5%B0%8F%E6%A3%AE-dyson-%E6%B8%85%E4%B8%80%E6%B8%85%E3%80%91%E6%B7%B1%E5%B1%A4%E6%B8%85%E7%90%86%E6%B8%85%E6%BD%94-%E6%88%B4%E6%A3%AE-dyson-%E5%90%B8%E5%A1%B5%E5%99%A8-%E9%9B%BB%E5%8B%95%E5%90%B8%E9%A0%AD-900%E8%B5%B7-%E5%85%A8%E5%8F%B07-11%E6%94%B6%E9%80%81%E4%BB%B6-i.3918719.461535767?srsltid=AfmBOory6i1RKFi0doazzwgpDANfXy6EcMArGtdRoDl-4SWh5Pwz95Lv"
                       target="_blank"
                     >
-                      <img src="../../assets/images/shopee3.jpg" alt="" class="mb-1 rounded-circle" width="15px" />
+                      <img src="../../assets/images/Shopee2.png" alt="" class="mb-1 rounded-circle" width="15px" />
                       賣場評論
                     </a>
                   </div>
@@ -313,10 +297,77 @@
         </div>
       </section>
 
+      <section id="VideoIntro">
+        <div class="bg-light">
+          <div class="container">
+            <div class="row py-3" style="font-size: 16px">
+              <div class="col-lg-5 p-3">
+                <div class="video-container">
+                  <video src="../../../public/clean.mp4" controls></video>
+                </div>
+              </div>
+              <div class="col-lg-7 p-3 mt-2 mt-md-0">
+                <h2 class="text-center">吸塵器長期未清潔的問題</h2>
+                <hr />
+                <div class="text-left mt-4">
+                  <div class="d-flex">
+                    <div class="mr-2">
+                      <img src="../../assets/images/no1.png" width="23px" alt="" />
+                    </div>
+                    <div>
+                      <div class="mb-4">
+                        <h5 style="text-decoration: underline">吸力下降</h5>
+                        長期使用後，吸塵器的吸力會因為過濾器或吸塵頭的堵塞而降低，影響清潔效果。
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="d-flex">
+                    <div class="mr-2">
+                      <img src="../../assets/images/no1.png" width="23px" alt="" />
+                    </div>
+                    <div>
+                      <div class="mb-4">
+                        <h5 style="text-decoration: underline">噪音增大</h5>
+                        吸塵器使用時間長了，可能會因為內部部件磨損或堵塞而產生異常噪音。
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="d-flex">
+                    <div class="mr-2">
+                      <img src="../../assets/images/no1.png" width="23px" alt="" />
+                    </div>
+                    <div>
+                      <div class="mb-4">
+                        <h5 style="text-decoration: underline">異味散發</h5>
+                        吸塵器使用時間長了，可能會因為內部部件磨損或堵塞而產生異常噪音。
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="d-flex">
+                    <div class="mr-2">
+                      <img src="../../assets/images/no1.png" width="23px" alt="" />
+                    </div>
+                    <div>
+                      <div class="mb-4">
+                        <h5 style="text-decoration: underline">過熱故障</h5>
+                        吸塵器內部長時間堆積灰塵和毛髮，可能會造成機器過熱，甚至引發故障或損壞。
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="ProductsType">
         <div class="container my-5">
-          <h3>清潔圖片</h3>
-          <hr />
+          <!-- <h1>清潔圖片</h1>
+          <hr /> -->
           <div class="row">
             <div class="col-sm-4 my-1">
               <div class="l-bg-cover rounded type01 img-thumbnail">
@@ -328,7 +379,7 @@
             <div class="col-sm-4 my-1">
               <div class="l-bg-cover rounded type02 img-thumbnail">
                 <router-link class="black-cover" style="text-decoration: none" to="/product_list">
-                  <span class="h4">極淨</span>
+                  <span class="h4">團隊分工</span>
                 </router-link>
               </div>
             </div>
@@ -344,82 +395,15 @@
             <div class="col-md-6 my-1">
               <div class="l-bg-cover rounded type04 img-thumbnail">
                 <router-link class="black-cover" to="/product_list">
-                  <span class="h4">團隊分工</span>
+                  <span class="h4">經驗豐富</span>
                 </router-link>
               </div>
             </div>
             <div class="col-md-6 my-1">
               <div class="l-bg-cover rounded type05 img-thumbnail">
                 <router-link class="black-cover" style="text-decoration: none" to="/product_list">
-                  <span class="h4">風乾</span>
+                  <span class="h4">天然洗劑</span>
                 </router-link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="VideoIntro">
-        <div class="bg-light">
-          <div class="container">
-            <div class="row py-3">
-              <div class="col-lg-6 p-3">
-                <div class="video-container">
-                  <video src="../../../public/clean.mp4" controls></video>
-                </div>
-              </div>
-              <div class="col-lg-6 p-3">
-                <h4 class="text-center">吸塵器長期未清潔的問題</h4>
-                <hr />
-                <div class="text-left mt-4">
-                  <div class="d-flex">
-                    <div class="mr-2">
-                      <img src="../../assets/images/no1.png" width="23px" alt="" />
-                    </div>
-                    <div>
-                      <div class="mb-4">
-                        <h5>吸力下降</h5>
-                        長期使用後，吸塵器的吸力會因為過濾器或吸塵頭的堵塞而降低，影響清潔效果。
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="d-flex">
-                    <div class="mr-2">
-                      <img src="../../assets/images/no1.png" width="23px" alt="" />
-                    </div>
-                    <div>
-                      <div class="mb-4">
-                        <h5>噪音增大</h5>
-                        吸塵器使用時間長了，可能會因為內部部件磨損或堵塞而產生異常噪音。
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="d-flex">
-                    <div class="mr-2">
-                      <img src="../../assets/images/no1.png" width="23px" alt="" />
-                    </div>
-                    <div>
-                      <div class="mb-4">
-                        <h5>異味散發</h5>
-                        吸塵器使用時間長了，可能會因為內部部件磨損或堵塞而產生異常噪音。
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="d-flex">
-                    <div class="mr-2">
-                      <img src="../../assets/images/no1.png" width="23px" alt="" />
-                    </div>
-                    <div>
-                      <div class="mb-4">
-                        <h5>過熱故障</h5>
-                        吸塵器內部長時間堆積灰塵和毛髮，可能會造成機器過熱，甚至引發故障或損壞。
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -563,16 +547,16 @@
   }
 
   .type01 {
-    background-image: url('../../assets/images/Home_img.jpg');
+    background-image: url('../../assets/images/clean1.jpg');
   }
   .type02 {
-    background-image: url('../../assets/images/Home_img2.jpg');
+    background-image: url('../../assets/images/Home_img.jpg');
   }
   .type03 {
-    background-image: url('../../assets/images/img1.jpg');
+    background-image: url('../../assets/images/home_caro2.jpg');
   }
   .type04 {
-    background-image: url('../../assets/images/img5.jpg');
+    background-image: url('../../assets/images/home_caro.jpg');
   }
   .type05 {
     background-image: url('../../assets/images/img6.jpg');
@@ -606,7 +590,7 @@
       height: 100%;
       z-index: 1;
       opacity: 0;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0.9);
       transition: all 1s;
     }
 
@@ -616,7 +600,7 @@
 
     @media (max-width: 575.98px) {
       span {
-        display: block;
+        display: none;
         color: rgb(255, 255, 255);
         z-index: 2;
       }
@@ -629,8 +613,8 @@
         width: 100%;
         height: 100%;
         z-index: 1;
-        opacity: 0.7;
-        background-color: rgba(156, 152, 152, 0.5);
+        opacity: 0;
+        // background-color: #30303099;
       }
     }
   }
@@ -696,6 +680,7 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
+    font-size: 16px;
   }
 
   .video-container {
