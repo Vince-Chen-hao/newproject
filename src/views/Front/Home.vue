@@ -88,7 +88,7 @@
         </div>
       </section>
 
-      <section id="CategoryList">
+      <section id="CategoryList " >
         <div class="container my-md-4 my-0 mb-md-0 mb-md-2 mb-1 mt-md-0 mt-1">
           <ul class="row category-list justify-content-around">
             <li
@@ -535,9 +535,10 @@
 
         categories: [
           { name: '專業團隊', title: 'Professional', icon: 'fas fa-users fa-2x' },
-          { name: '顧客至上', title: 'Service', icon: 'fas fa-hand-holding-heart fa-2x' },
-          { name: '安心洗劑', title: 'Safety', icon: 'fas fa-tint fa-2x' },
-          { name: '高效服務', title: 'Efficiency', icon: 'fas fa-stopwatch fa-2x' },
+        { name: '高效服務', title: 'Efficiency', icon: 'fas fa-stopwatch fa-2x' },
+                  { name: '顧客至上', title: 'Service', icon: 'fas fa-hand-holding-heart fa-2x' },
+
+        { name: '安心洗劑', title: 'Safety', icon: 'fas fa-tint fa-2x' },
         ],
       }
     },
@@ -768,7 +769,8 @@
 }
 
     .categoryFont{
-  font-size:16px
+  font-size:15px;
+  font-weight:500
 }
 
     .video-container {
@@ -819,7 +821,9 @@ h1{
   font-size:40px
 }
 .categoryFont{
-  font-size:18px
+  font-size:18px;
+    font-weight:500
+
 }
 
     .brand-block {
