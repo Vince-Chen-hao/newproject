@@ -10,7 +10,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top shadow-sm" style="background: #14181a">
       <div class="container">
         <a href="index.html" class="navbar-brand">
-          <img src="../../assets/images/Logo7.png" width="180px" alt="" />
+          <img src="../../assets/images/Logo7.png" width="150px" alt="" />
         </a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>

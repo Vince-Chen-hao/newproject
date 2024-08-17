@@ -60,7 +60,7 @@
     font-size: 24px; /* 调整图标大小 */
     color: #333;
     cursor: pointer;
-    margin-bottom: 10px; /* 设置图标之间的间距 */
+    /* margin-bottom: 10px;  */
     background: transparent; /* 背景透明 */
     border: none; /* 移除边框 */
     padding: 0; /* 移除内边距 */

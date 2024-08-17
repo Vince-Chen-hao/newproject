@@ -2,37 +2,41 @@
   <div>
     <section class="HomeSection">
       <!-- 彈出式蓋板 -->
-<div class="d-none d-md-block">
+      <div class="d-none d-md-block">
+        <div class="share-icon-container">
+          <div class="share-icon">
+            <a href="https://m.me/cleands717" target="_blank">
+              <img src="../../assets/images/messenger.png" width="60px" alt="" />
+            </a>
 
-
-
-      <div class="share-icon-container">
-        <div class="share-icon">
-          <a href="https://m.me/cleands717" target="_blank">
-            <img src="../../assets/images/messenger.png" width="60px" alt="" />
-          </a>
-
-          <div class="contact-text">線上詢問</div>
+            <div class="contact-text">線上詢問</div>
+          </div>
         </div>
-      </div>
       </div>
 
       <div class="d-block d-md-none">
+        <div class="fixed-bottom-container py-1">
+          <div class="d-flex flex-column align-items-center">
+            <a href="https://m.me/cleands717" target="_blank" class="icon facebook" title="Facebook">
+              <img src="../../assets/images/message.png" width="35px" alt="" />
+            </a>
 
-
-
-      <div class="fixed-bottom-container py-3">
-      <a href="https://m.me/cleands717" target="_blank" class="icon facebook"  title="Facebook">
-       <img src="../../assets/images/messenger.png" width="50px" alt="">
-      </a>
-      <a href="https://line.me" class="icon line" target="_blank" title="LINE">
-       <img src="../../assets/images/line.png" width="50px" alt="">
-      </a>
-      <span id="SliderTop" class="icon top" title="置頂">
-       <img src="../../assets/images/uparrow.png" width="50px" alt="">
-      </span>
-    </div>
-    </div>
+            <div class="text-light">Facebook</div>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <a href="https://line.me" class="icon line" target="_blank" title="LINE">
+              <img src="../../assets/images/line.png" width="35px" alt="" />
+            </a>
+            <div class="text-light">Line</div>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <span id="SliderTop" class="icon top" title="置頂">
+              <img src="../../assets/images/uparrow.png" width="35px" alt="" />
+            </span>
+            <div class="text-light">Top</div>
+          </div>
+        </div>
+      </div>
 
       <!-- <div class="share-icon-container" @click="toggleIcons">
         <div v-if="!showSocialIcons" class="share-icon">
@@ -49,13 +53,13 @@
       <!-- 點擊滑動置頂 -->
 
       <div class="d-none d-md-block">
-      <div id="SliderTop">
-        <img class="SliderTop-img" src="../../assets/images/up3.png" alt="cart" />
-      </div>
+        <div id="SliderTop">
+          <img class="SliderTop-img" src="../../assets/images/up3.png" alt="cart" />
+        </div>
       </div>
 
       <!-- SHOWCASE SLIDER -->
-      <section id="showcase" style="margin-top: 90px">
+      <section id="showcase" style="margin-top: 80px">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -82,8 +86,8 @@
       </section>
 
       <section id="CategoryList">
-        <div class="container my-4">
-          <ul class="row mr-4 category-list justify-content-around">
+        <div class="container my-md-4 my-0 mb-md-0 mb-2">
+          <ul class="row category-list justify-content-around">
             <li
               class="col-md-3 col-6"
               v-for="(category, key) in categories"
@@ -91,9 +95,9 @@
               @click.prevent="linkProductlist"
             >
               <i :class="category.icon" class="py-auto"></i>
-              <ul style="list-style-type: none; font-size: 18px">
+              <ul style="list-style-type: none; font-size: 16px">
                 <li>{{ category.name }}</li>
-                <li>{{ category.title }}</li>
+                <li class="d-none d-md-block">{{ category.title }}</li>
               </ul>
             </li>
           </ul>
@@ -104,7 +108,7 @@
       <section id="mission-head-section" style="background: #1f2d35">
         <div class="container">
           <div class="row">
-            <div class="col py-5 text-light">
+            <div class="col py-md-5 py-4 text-light mt-1">
               <h1 class="display-5">關於我們</h1>
               <div class="lead mt-4">
                 <p>
@@ -125,7 +129,11 @@
         <div class="container">
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-3">
-              <img src="../../assets/images/Logo.jpg" alt="" class="img-thumbnail img-fluid mb-3 rounded-circle" />
+              <img
+                src="../../assets/images/Logo.jpg"
+                alt=""
+                class="img-thumbnail img-fluid mb-3 rounded-circle companylogoSize"
+              />
             </div>
             <div class="col-lg-7" style="font-size: 19px">
               <h1>服務項目</h1>
@@ -166,7 +174,7 @@
       </div>
 
       <!-- Teams-head-section -->
-      <section id="Teams-head-section" class="text-center text-dark py-5" style="background: #1f2d35">
+      <section id="Teams-head-section" class="text-center text-dark py-md-5 py-4" style="background: #1f2d35">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -188,7 +196,7 @@
 
           <div class="row">
             <div class="col-lg-2 col-6">
-              <div class="card mb-5">
+              <div class="card mb-4">
                 <div class="card-body">
                   <img src="../../assets/images/share6.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
                   <h5>Hsu Abow</h5>
@@ -212,7 +220,7 @@
             </div>
 
             <div class="col-lg-2 col-6">
-              <div class="card mb-5">
+              <div class="card mb-4">
                 <div class="card-body">
                   <img src="../../assets/images/share3.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
                   <h5>Irenebaby</h5>
@@ -233,7 +241,7 @@
             </div>
 
             <div class="col-lg-2 col-6">
-              <div class="card mb-5">
+              <div class="card mb-4">
                 <div class="card-body">
                   <img src="../../assets/images/share5.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
                   <h5>即將起飛</h5>
@@ -255,7 +263,7 @@
               </div>
             </div>
             <div class="col-lg-2 col-6">
-              <div class="card mb-5">
+              <div class="card mb-4">
                 <div class="card-body">
                   <img src="../../assets/images/share2.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
                   <h5>Wisely</h5>
@@ -279,7 +287,7 @@
             </div>
 
             <div class="col-lg-2 col-6">
-              <div class="card mb-5">
+              <div class="card mb-4">
                 <div class="card-body">
                   <img src="../../assets/images/Logo.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
                   <h5>FB官網</h5>
@@ -297,7 +305,7 @@
             </div>
 
             <div class="col-lg-2 col-6">
-              <div class="card mb-5">
+              <div class="card mb-3">
                 <div class="card-body">
                   <img src="../../assets/images/Shopee2.png" alt="" class="img-fluid rounded-circle w-50 mb-3" />
                   <h5>蝦皮賣場</h5>
@@ -389,7 +397,7 @@
       </section>
 
       <section id="ProductsType">
-        <div class="container my-5">
+        <div class="container my-md-5 my-4">
           <!-- <h1>清潔圖片</h1>
           <hr /> -->
           <div class="row">
@@ -444,6 +452,21 @@
   // import Shoppingcart from '../../components/Front/Shoppingcart.vue'
 
   export default {
+    metaInfo() {
+      return {
+        title: this.$route.meta.title || '預設標題',
+        meta: [
+          {
+            name: 'description',
+            content: this.$route.meta.description || '預設描述',
+          },
+          {
+            name: 'keywords',
+            content: this.$route.meta.keywords || '預設關鍵字',
+          },
+        ],
+      }
+    },
     components: {
       // PopupNews,
       // Shoppingcart,
@@ -454,10 +477,10 @@
         showSocialIcons: false,
 
         categories: [
-          { name: 'Professional', title: '專業團隊', icon: 'fas fa-users fa-2x' },
-          { name: 'Service', title: '顧客至上', icon: 'fas fa-hand-holding-heart fa-2x' },
-          { name: 'Safety', title: '安心洗劑', icon: 'fas fa-tint fa-2x' },
-          { name: 'Efficiency', title: '高效服務', icon: 'fas fa-stopwatch fa-2x' },
+          { name: '專業團隊', title: 'Professional', icon: 'fas fa-users fa-2x' },
+          { name: '顧客至上', title: 'Service', icon: 'fas fa-hand-holding-heart fa-2x' },
+          { name: '安心洗劑', title: 'Safety', icon: 'fas fa-tint fa-2x' },
+          { name: '高效服務', title: 'Efficiency', icon: 'fas fa-stopwatch fa-2x' },
         ],
       }
     },
@@ -508,7 +531,7 @@
       height: 300px;
     }
     @media (max-width: 575.98px) {
-      height: 200px;
+      height: 170px;
     }
   }
 
@@ -537,7 +560,7 @@
 
   .category-list {
     ul {
-      padding-left: 20px;
+      padding-left: 15px;
     }
 
     > li {
@@ -642,6 +665,31 @@
       }
     }
   }
+  @media (max-width: 575.98px) {
+    .video-container {
+      width: 100%;
+      padding-top: 400px; /* 使容器保持正方形 */
+      position: relative;
+      overflow: hidden;
+    }
+
+    .video-container video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* 避免視頻變形 */
+    }
+
+    .companylogoSize {
+      width: 250px;
+    }
+
+    .borderLine {
+      border: 1px solid #dee2e6 !important;
+    }
+  }
 
   .NewsIist {
     //淡出動畫效果
@@ -674,7 +722,7 @@
     background-color: rgb(187, 173, 133);
   }
 
-  @media (min-width: 767px) {
+  @media (min-width: 575px) {
     .brand-block {
       position: relative;
       height: 450px;
@@ -692,6 +740,22 @@
         padding: 20px 130px 20px 40px;
       }
     }
+
+    .video-container {
+      width: 400px;
+      padding-top: 400px; /* 使容器保持正方形 */
+      position: relative;
+      overflow: hidden;
+    }
+
+    .video-container video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* 避免視頻變形 */
+    }
   }
 
   .form-control {
@@ -707,58 +771,31 @@
     font-size: 16px;
   }
 
-  .video-container {
-    width: 400px;
-    padding-top: 400px; /* 使容器保持正方形 */
-    position: relative;
-    overflow: hidden;
-  }
-  .video-container video {
-    position: absolute;
-    top: 0;
+  .fixed-bottom-container {
+    position: fixed;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    object-fit: cover; /* 避免視頻變形 */
+    display: flex;
+    justify-content: space-around;
+    background-color: #343a40d4; /* 背景顏色，可根據需求調整 */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* 可選的陰影效果 */
+    z-index: 1000; /* 確保它在其他內容之上 */
   }
 
-  .fixed-bottom-container {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  background-color: #343a40; /* 背景顏色，可根據需求調整 */
-  padding: 10px;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* 可選的陰影效果 */
-  z-index: 1000; /* 確保它在其他內容之上 */
-}
+  .fixed-bottom-container .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #000; /* 圖標顏色，可根據需求調整 */
+    text-decoration: none;
+  }
 
-.fixed-bottom-container .icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  color: #000; /* 圖標顏色，可根據需求調整 */
-  text-decoration: none;
-}
-
-.fixed-bottom-container .icon:hover {
-  color: #007bff; /* 圖標懸停顏色，可根據需求調整 */
-}
-
-.icon.facebook {
-  /* Facebook 標誌的樣式 */
-}
-
-.icon.line {
-  /* LINE 標誌的樣式 */
-}
-
-.icon.top {
-  /* 置頂標誌的樣式 */
-}
+  ul {
+    padding-inline-start: 0;
+    margin-block-end: 0;
+  }
 </style>

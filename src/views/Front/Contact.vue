@@ -72,6 +72,22 @@
 
 <script>
   export default {
+    metaInfo() {
+      return {
+        title: this.$route.meta.title || '預設標題',
+        meta: [
+          {
+            name: 'description',
+            content: this.$route.meta.description || '預設描述',
+          },
+          {
+            name: 'keywords',
+            content: this.$route.meta.keywords || '預設關鍵字',
+          },
+        ],
+      }
+    },
+
     data() {
       return {}
     },
