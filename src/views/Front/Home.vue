@@ -143,27 +143,27 @@
               <div class="ml-md-5 ml-2 text-left" style="color: #313131">
                 <div class="d-flex align-items-center mb-3 mt-4">
                   <div class="mr-4">
-                    <img src="../../assets/images/check4.png" width="30px" alt="" />
+                    <img src="../../assets/images/check3.png" width="30px" alt="" />
                   </div>
                   <div>Dyson主機與刷頭的專業清洗服務</div>
                 </div>
 
                 <div class="d-flex align-items-center mb-3">
                   <div class="mr-4">
-                    <img src="../../assets/images/check4.png" width="30px" alt="" />
+                    <img src="../../assets/images/check3.png" width="30px" alt="" />
                   </div>
                   <div>Dyson 吸塵器零件銷售與更換</div>
                 </div>
 
                 <div class="d-flex align-items-center mb-3">
                   <div class="mr-4">
-                    <img src="../../assets/images/check4.png" width="30px" alt="" />
+                    <img src="../../assets/images/check3.png" width="30px" alt="" />
                   </div>
                   <div>吸塵器濾心清洗與更換服務</div>
                 </div>
                 <div class="d-flex align-items-center mb-3">
                   <div class="mr-4">
-                    <img src="../../assets/images/check4.png" width="30px" alt="" />
+                    <img src="../../assets/images/check3.png" width="30px" alt="" />
                   </div>
                   <div>吸塵器吸力與性能檢測及調整建議</div>
                 </div>
@@ -344,7 +344,7 @@
                 <div class="text-left mt-4">
                   <div class="d-flex">
                     <div class="mr-2">
-                      <img src="../../assets/images/no1.png" width="23px" alt="" />
+                      <img src="../../assets/images/no2.png" width="23px" alt="" />
                     </div>
                     <div>
                       <div class="mb-4">
@@ -356,7 +356,7 @@
 
                   <div class="d-flex">
                     <div class="mr-2">
-                      <img src="../../assets/images/no1.png" width="23px" alt="" />
+                      <img src="../../assets/images/no2.png" width="23px" alt="" />
                     </div>
                     <div>
                       <div class="mb-4">
@@ -368,7 +368,7 @@
 
                   <div class="d-flex">
                     <div class="mr-2">
-                      <img src="../../assets/images/no1.png" width="23px" alt="" />
+                      <img src="../../assets/images/no2.png" width="23px" alt="" />
                     </div>
                     <div>
                       <div class="mb-4">
@@ -380,7 +380,7 @@
 
                   <div class="d-flex">
                     <div class="mr-2">
-                      <img src="../../assets/images/no1.png" width="23px" alt="" />
+                      <img src="../../assets/images/no2.png" width="23px" alt="" />
                     </div>
                     <div>
                       <div class="mb-4">
@@ -507,14 +507,14 @@
 <style lang="scss" scoped>
   .SliderTop-img {
     position: fixed;
-    bottom: 30px;
-    right: 40px;
+    bottom: 35px;
+    right: 25px;
     width: 40px;
-    background: rgb(241, 237, 206);
+    background: #ececec;
     border-radius: 70%;
     border-width: 2px;
-    border-style: dotted;
-    border-color: rgb(214, 210, 187);
+    border-style: solid;
+    border-color: #bbc2d6;
     padding: 5px;
     z-index: 1000;
   }
@@ -637,7 +637,7 @@
       height: 100%;
       z-index: 1;
       opacity: 0;
-      background-color: rgba(0, 0, 0, 0.9);
+      background-color: rgba(0, 0, 0, 0.6);
       transition: all 1s;
     }
 
