@@ -38,11 +38,11 @@
     top: 10px;
     left: 10px; */
     margin-top: 5px;
-    font-size: 13px; /* 字體大小 */
+    font-size: 15px; /* 字體大小 */
     color: #9caac1; /* 字體顏色 */
     font-family: 'Arial', sans-serif; /* 現代感字體 */
     /* text-shadow: 1px 1px 1px rgba(19, 104, 195, 0.576); */
-    font-weight: 550;
+    font-weight: 500;
   }
 
   .share-icon {

@@ -53,7 +53,7 @@
       <!-- 點擊滑動置頂 -->
 
       <div class="d-none d-md-block">
-        <div id="SliderTop">
+        <div id="SliderTop2">
           <img class="SliderTop-img" src="../../assets/images/up3.png" alt="cart" />
         </div>
       </div>
@@ -86,16 +86,15 @@
       </section>
 
       <section id="CategoryList">
-        <div class="container my-md-4 my-0 mb-md-0 mb-2">
+        <div class="container my-md-4 my-0 mb-md-0 mb-md-2 mb-1 mt-md-0 mt-1">
           <ul class="row category-list justify-content-around">
             <li
               class="col-md-3 col-6"
               v-for="(category, key) in categories"
               :key="key"
-              @click.prevent="linkProductlist"
             >
               <i :class="category.icon" class="py-auto"></i>
-              <ul style="list-style-type: none; font-size: 16px">
+              <ul style="list-style-type: none; font-size: 18px">
                 <li>{{ category.name }}</li>
                 <li class="d-none d-md-block">{{ category.title }}</li>
               </ul>
@@ -118,14 +117,14 @@
                 <!-- <p>我們的專業，成為您清潔Dyson戴森的最佳選擇，為您提供最細心周到的服務！</p> -->
               </div>
               <!--添加.lead讓段落突出，常與display合用-->
-              <a href="#" class="btn btn-outline-info mt-4">更多</a>
+                <!--<a href="#" class="btn btn-outline-info mt-4">更多</a>-->
             </div>
           </div>
         </div>
       </section>
 
       <!-- Brandspirit SECTION -->
-      <div class="bg-light text-muted py-4">
+      <div class="bg-light text-muted py-md-5 py-4">
         <div class="container">
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-3">
@@ -135,12 +134,12 @@
                 class="img-thumbnail img-fluid mb-3 rounded-circle companylogoSize"
               />
             </div>
-            <div class="col-lg-7" style="font-size: 19px">
-              <h1>服務項目</h1>
+            <div class="col-lg-7" style="font-size: 20px">
+              <h2 class="text-dark">服務項目</h2>
 
               <hr />
 
-              <div class="ml-md-5 ml-2 text-left" style="color: #313131">
+              <div class="ml-md-5 ml-2 pl-md-5 pl-0 text-left" style="color: #313131; letter-spacing: 1px;">
                 <div class="d-flex align-items-center mb-3 mt-4">
                   <div class="mr-4">
                     <img src="../../assets/images/check3.png" width="30px" alt="" />
@@ -296,7 +295,7 @@
 
                 <div class="d-flex justify-content-center">
                   <div class="pb-4">
-                    <a href="https://www.facebook.com/cleands717/reviews" target="_blank">
+                    <a href="https://m.me/cleands717" target="_blank">
                       <i class="fab fa-facebook"></i> 官網評論
                     </a>
                   </div>
@@ -332,13 +331,13 @@
       <section id="VideoIntro">
         <div class="bg-light">
           <div class="container">
-            <div class="row py-3" style="font-size: 16px">
+            <div class="row pt-md-5 pt-4" style="font-size: 16px">
               <div class="col-lg-5 p-3">
                 <div class="video-container">
                   <video src="../../../public/clean.mp4" controls></video>
                 </div>
               </div>
-              <div class="col-lg-7 p-3 mt-2 mt-md-0">
+              <div class="col-lg-7 p-3 mt-2 mt-md-0" >
                 <h2 class="text-center">吸塵器長期未清潔的問題</h2>
                 <hr />
                 <div class="text-left mt-4">
@@ -393,13 +392,65 @@
               </div>
             </div>
           </div>
+
+
+         <div class="container my-md-4 my-0" >
+        <div class="row ">
+<div class="col-md-3 image-container d-sm-block d-none">
+
+  <img src="../../assets/images/dirty1.jpg" class="img-fluid rounded  img-thumbnail" alt="">
+
+</div>
+<div class="col-md-3 image-container ">
+
+  <img src="../../assets/images/dirty2.jpg" class="img-fluid rounded  img-thumbnail" alt="">
+
+</div>
+<div class="col-md-3 image-container d-sm-block d-none ">
+
+  <img src="../../assets/images/dirty3.jpg" class="img-fluid rounded  img-thumbnail" alt="">
+
+</div>
+<div class="col-md-3 image-container d-sm-block d-none">
+
+  <img src="../../assets/images/dirty7.jpg" class="img-fluid rounded  img-thumbnail" alt="">
+
+</div>
+
         </div>
+
+
+
+        <div class="row mt-3">
+
+
+<div class="col-md-6 image-container2">
+
+  <img src="../../assets/images/dirty4.jpg" class="img-fluid rounded  img-thumbnail" alt="">
+
+</div>
+<div class="col-md-6 image-container2">
+
+  <img src="../../assets/images/dirty5.jpg" class="img-fluid rounded  img-thumbnail" alt="">
+
+</div>
+
+
+        </div>
+      </div>
+      </div>
       </section>
 
-      <section id="ProductsType">
-        <div class="container my-md-5 my-4">
-          <!-- <h1>清潔圖片</h1>
-          <hr /> -->
+
+
+
+              <section id="Teams-head-section" class="text-center text-dark py-md-5 py-4" style="background: #1f2d35">
+
+        <div class="container my-4">
+          <h2 class="text-center text-light">清潔後成果</h2>
+
+          <div class="mt-3 text-light lead">每一個清洗過程都會拍照分享，請放心交給我們</div>
+                <hr />
           <div class="row">
             <div class="col-sm-4 my-1">
               <div class="l-bg-cover rounded type01 img-thumbnail">
@@ -439,9 +490,12 @@
               </div>
             </div>
           </div>
+
         </div>
       </section>
-      <Shoppingcart />
+
+
+
     </section>
   </div>
 </template>
@@ -499,6 +553,10 @@
           $('html,body').animate({ scrollTop: 0 }, 'slow')
           return false
         })
+        $('#SliderTop2').click(() => {
+          $('html,body').animate({ scrollTop: 0 }, 'slow')
+          return false
+        })
       })
     },
   }
@@ -508,7 +566,7 @@
   .SliderTop-img {
     position: fixed;
     bottom: 35px;
-    right: 25px;
+    right: 30px;
     width: 40px;
     background: #ececec;
     border-radius: 70%;
@@ -517,6 +575,7 @@
     border-color: #bbc2d6;
     padding: 5px;
     z-index: 1000;
+    cursor:pointer
   }
 
   .l-bg-cover {
@@ -525,7 +584,7 @@
   }
 
   .carousel-item {
-    height: 500px;
+    height: 650px;
 
     @media (max-width: 768px) {
       height: 300px;
@@ -665,33 +724,8 @@
       }
     }
   }
-  @media (max-width: 575.98px) {
-    .video-container {
-      width: 100%;
-      padding-top: 400px; /* 使容器保持正方形 */
-      position: relative;
-      overflow: hidden;
-    }
 
-    .video-container video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover; /* 避免視頻變形 */
-    }
-
-    .companylogoSize {
-      width: 250px;
-    }
-
-    .borderLine {
-      border: 1px solid #dee2e6 !important;
-    }
-  }
-
-  .NewsIist {
+ .NewsIist {
     //淡出動畫效果
     @keyframes flicker {
       0% {
@@ -721,6 +755,51 @@
     padding: 20px;
     background-color: rgb(187, 173, 133);
   }
+
+
+//手機寬度
+  @media (max-width: 575.98px) {
+    .video-container {
+      width: 100%;
+      padding-top: 400px; /* 使容器保持正方形 */
+      position: relative;
+      overflow: hidden;
+    }
+
+    .video-container video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* 避免視頻變形 */
+    }
+
+    .companylogoSize {
+      width: 250px;
+    }
+
+    .borderLine {
+      border: 1px solid #dee2e6 !important;
+    }
+
+      .image-container {
+  width: 1005; /* 设置固定宽度 */
+  height: 250px; /* 设置固定高度 */
+  overflow: hidden; /* 隐藏超出容器的内容 */
+  position: relative; /* 可选，用于更复杂的定位 */
+}
+
+.image-container img {
+  width: 100%; /* 使图片宽度适应容器 */
+  height: 100%; /* 使图片高度适应容器 */
+  object-fit: cover; /* 保持图片的纵横比，裁剪图片以适应容器 */
+}
+  }
+
+
+
+//桌機寬度
 
   @media (min-width: 575px) {
     .brand-block {
@@ -756,6 +835,19 @@
       height: 100%;
       object-fit: cover; /* 避免視頻變形 */
     }
+
+      .image-container {
+  width: 240px; /* 设置固定宽度 */
+  height: 300px; /* 设置固定高度 */
+  overflow: hidden; /* 隐藏超出容器的内容 */
+  position: relative; /* 可选，用于更复杂的定位 */
+}
+
+.image-container img {
+  width: 100%; /* 使图片宽度适应容器 */
+  height: 100%; /* 使图片高度适应容器 */
+  object-fit: cover; /* 保持图片的纵横比，裁剪图片以适应容器 */
+}
   }
 
   .form-control {
@@ -798,4 +890,20 @@
     padding-inline-start: 0;
     margin-block-end: 0;
   }
+
+
+
+
+  .image-container2 {
+  width: 500px; /* 设置固定宽度 */
+  height: 260px; /* 设置固定高度 */
+  overflow: hidden; /* 隐藏超出容器的内容 */
+  position: relative; /* 可选，用于更复杂的定位 */
+}
+
+.image-container2 img {
+  width: 100%; /* 使图片宽度适应容器 */
+  height: 100%; /* 使图片高度适应容器 */
+  object-fit: cover; /* 保持图片的纵横比，裁剪图片以适应容器 */
+}
 </style>
