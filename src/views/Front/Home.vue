@@ -30,10 +30,13 @@
             <div class="text-light">Line</div>
           </div>
           <div class="d-flex flex-column align-items-center">
-            <span id="SliderTop" class="icon top" title="置頂">
-              <img src="../../assets/images/uparrow.png" width="35px" alt="" />
-            </span>
-            <div class="text-light">Top</div>
+                  <a
+                      href="https://shopee.tw/%E3%80%90%E6%B8%85%E6%B8%85%E5%B0%8F%E6%A3%AE-dyson-%E6%B8%85%E4%B8%80%E6%B8%85%E3%80%91%E6%B7%B1%E5%B1%A4%E6%B8%85%E7%90%86%E6%B8%85%E6%BD%94-%E6%88%B4%E6%A3%AE-dyson-%E5%90%B8%E5%A1%B5%E5%99%A8-%E9%9B%BB%E5%8B%95%E5%90%B8%E9%A0%AD-900%E8%B5%B7-%E5%85%A8%E5%8F%B07-11%E6%94%B6%E9%80%81%E4%BB%B6-i.3918719.461535767?srsltid=AfmBOory6i1RKFi0doazzwgpDANfXy6EcMArGtdRoDl-4SWh5Pwz95Lv"
+                      target="_blank"
+                    >
+              <img src="../../assets/images/Shopee2.png" width="35px" alt="" />
+            </a>
+            <div class="text-light">Shopee</div>
           </div>
         </div>
       </div>
@@ -94,7 +97,7 @@
               :key="key"
             >
               <i :class="category.icon" class="py-auto"></i>
-              <ul style="list-style-type: none; font-size: 18px">
+              <ul style="list-style-type: none;" class="categoryFont">
                 <li>{{ category.name }}</li>
                 <li class="d-none d-md-block">{{ category.title }}</li>
               </ul>
@@ -334,7 +337,7 @@
             <div class="row pt-md-5 pt-4" style="font-size: 16px">
               <div class="col-lg-5 p-3">
                 <div class="video-container">
-                  <video src="../../../public/clean.mp4" controls></video>
+                  <video src="../../../public/clean.mp4" controls poster="../../assets/images/video_img.png"></video>
                 </div>
               </div>
               <div class="col-lg-7 p-3 mt-2 mt-md-0" >
@@ -759,6 +762,11 @@
 
 //手機寬度
   @media (max-width: 575.98px) {
+
+    .categoryFont{
+  font-size:16px
+}
+
     .video-container {
       width: 100%;
       padding-top: 400px; /* 使容器保持正方形 */
@@ -802,6 +810,11 @@
 //桌機寬度
 
   @media (min-width: 575px) {
+
+.categoryFont{
+  font-size:18px
+}
+
     .brand-block {
       position: relative;
       height: 450px;
