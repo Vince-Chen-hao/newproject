@@ -587,7 +587,7 @@
   }
 
   .carousel-item {
-    height: 650px;
+    height: 550px;
 
     @media (max-width: 768px) {
       height: 300px;
@@ -763,6 +763,10 @@
 //手機寬度
   @media (max-width: 575.98px) {
 
+    h1{
+  font-size:32px
+}
+
     .categoryFont{
   font-size:16px
 }
@@ -811,6 +815,9 @@
 
   @media (min-width: 575px) {
 
+h1{
+  font-size:40px
+}
 .categoryFont{
   font-size:18px
 }

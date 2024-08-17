@@ -70,7 +70,6 @@
       color: rgb(117, 117, 113);
     }
   }
-
   .coupon-num-open {
     border: 2px dashed rgba(107, 124, 126, 0.842);
     animation: coupon-num-open 3.5s infinite;
