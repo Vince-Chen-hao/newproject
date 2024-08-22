@@ -16,6 +16,33 @@
         </div>
       </div>
     </div>
+
+        <div class="d-block d-md-none">
+        <div class="fixed-bottom-container py-1">
+          <div class="d-flex flex-column align-items-center">
+            <a href="https://m.me/cleands717" target="_blank" class="icon facebook" title="Facebook">
+              <img src="../../assets/images/message.png" width="35px" alt="" />
+            </a>
+
+            <div class="text-light">Facebook</div>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <a href="https://lin.ee/v0Ta2kq" class="icon line" target="_blank" title="LINE">
+              <img src="../../assets/images/line.png" width="35px" alt="" />
+            </a>
+            <div class="text-light">Line</div>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <a
+              href="https://shopee.tw/%E3%80%90%E6%B8%85%E6%B8%85%E5%B0%8F%E6%A3%AE-dyson-%E6%B8%85%E4%B8%80%E6%B8%85%E3%80%91%E6%B7%B1%E5%B1%A4%E6%B8%85%E7%90%86%E6%B8%85%E6%BD%94-%E6%88%B4%E6%A3%AE-dyson-%E5%90%B8%E5%A1%B5%E5%99%A8-%E9%9B%BB%E5%8B%95%E5%90%B8%E9%A0%AD-900%E8%B5%B7-%E5%85%A8%E5%8F%B07-11%E6%94%B6%E9%80%81%E4%BB%B6-i.3918719.461535767?srsltid=AfmBOory6i1RKFi0doazzwgpDANfXy6EcMArGtdRoDl-4SWh5Pwz95Lv"
+              target="_blank"
+            >
+              <img src="../../assets/images/Shopee2.png" width="35px" alt="" />
+            </a>
+            <div class="text-light">Shopee</div>
+          </div>
+        </div>
+      </div>
     <div class="coupon-bg d-flex justify-content-center align-items-center"></div>
     <div class="container mt-5">
       <!-- <div class="h3 m-4 text-center discount-title p-4">
@@ -160,6 +187,10 @@
             </div>
           </div>
         </div>
+        <br>
+                <br>
+        <br>
+
       </div>
     </div>
   </div>

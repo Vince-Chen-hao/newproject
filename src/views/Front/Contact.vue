@@ -16,6 +16,33 @@
         </div>
       </div>
     </div>
+
+    <div class="d-block d-md-none">
+        <div class="fixed-bottom-container py-1">
+          <div class="d-flex flex-column align-items-center">
+            <a href="https://m.me/cleands717" target="_blank" class="icon facebook" title="Facebook">
+              <img src="../../assets/images/message.png" width="35px" alt="" />
+            </a>
+
+            <div class="text-light">Facebook</div>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <a href="https://lin.ee/v0Ta2kq" class="icon line" target="_blank" title="LINE">
+              <img src="../../assets/images/line.png" width="35px" alt="" />
+            </a>
+            <div class="text-light">Line</div>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <a
+              href="https://shopee.tw/%E3%80%90%E6%B8%85%E6%B8%85%E5%B0%8F%E6%A3%AE-dyson-%E6%B8%85%E4%B8%80%E6%B8%85%E3%80%91%E6%B7%B1%E5%B1%A4%E6%B8%85%E7%90%86%E6%B8%85%E6%BD%94-%E6%88%B4%E6%A3%AE-dyson-%E5%90%B8%E5%A1%B5%E5%99%A8-%E9%9B%BB%E5%8B%95%E5%90%B8%E9%A0%AD-900%E8%B5%B7-%E5%85%A8%E5%8F%B07-11%E6%94%B6%E9%80%81%E4%BB%B6-i.3918719.461535767?srsltid=AfmBOory6i1RKFi0doazzwgpDANfXy6EcMArGtdRoDl-4SWh5Pwz95Lv"
+              target="_blank"
+            >
+              <img src="../../assets/images/Shopee2.png" width="35px" alt="" />
+            </a>
+            <div class="text-light">Shopee</div>
+          </div>
+        </div>
+      </div>
     <div class="coupon-bg"></div>
     <div class="container mt-5">
       <!-- <div class="mt-2 mb-0 discount-title text-left">
@@ -39,7 +66,7 @@
                 <span class="dot_size">●</span>
                 確認清洗需求
               </p>
-              <p class="MbDevice mt-3"><span class="dot_size">●</span> 提供寄送詳細</p>
+              <p class="MbDevice mt-3"><span class="dot_size">●</span> 確認清洗需求</p>
               <p><span class="dot_size">●</span> 提供寄送詳細</p>
             </div>
           </div>
@@ -73,7 +100,7 @@
                   <p>吸塵器裝箱寄出</p>
                 </div>
               </div>
-              <p class="MbDevice mt-3"><span class="dot_size">●</span> 7/11寄出或面交</p>
+              <p class="MbDevice mt-3"><span class="dot_size">●</span> 吸塵器裝箱寄出</p>
               <p><span class="dot_size">●</span> 7/11寄出或面交</p>
             </div>
           </div>
@@ -179,6 +206,8 @@
           <img src="../../assets/images/Serve_Img.png" class="img-fluid" alt="" />
         </div>
       </div>
+      <br>
+       <br> <br>
     </div>
   </div>
 </template>
@@ -285,8 +314,7 @@
   }
 
   .image-container {
-    width: 260px; /* 设置固定宽度 */
-    height: 200px; /* 设置固定高度 */
+
     overflow: hidden; /* 隐藏超出容器的内容 */
     position: relative; /* 可选，用于更复杂的定位 */
   }
@@ -295,5 +323,26 @@
     width: 100%; /* 使图片宽度适应容器 */
     height: 100%; /* 使图片高度适应容器 */
     object-fit: cover; /* 保持图片的纵横比，裁剪图片以适应容器 */
+  }
+
+
+  @media (min-width: 768px) {
+    .PcDevice {
+      display: block;
+    }
+
+    .MbDevice {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .PcDevice {
+      display: none;
+    }
+
+    .MbDevice {
+      display: block;
+    }
   }
 </style>

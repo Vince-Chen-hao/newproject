@@ -25,30 +25,6 @@
 </script>
 
 <style>
-
-  .fixed-bottom-container {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background-color: #343a40d4; /* 背景顏色，可根據需求調整 */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* 可選的陰影效果 */
-    z-index: 1000; /* 確保它在其他內容之上 */
-  }
-
-  .fixed-bottom-container .icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    color: #000; /* 圖標顏色，可根據需求調整 */
-    text-decoration: none;
-  }
-
   .share-icon-container {
     position: fixed;
     bottom: 20px; /* 调整图标距离页面底部的距离 */
@@ -109,25 +85,5 @@
     background-size: cover;
     height: 140px;
     margin-top: 80px;
-  }
-
-  @media (min-width: 768px) {
-    .PcDevice {
-      display: block;
-    }
-
-    .MbDevice {
-      display: none;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .PcDevice {
-      display: none;
-    }
-
-    .MbDevice {
-      display: block;
-    }
   }
 </style>

@@ -833,28 +833,7 @@
     font-size: 16px;
   }
 
-  .fixed-bottom-container {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background-color: #343a40d4; /* 背景顏色，可根據需求調整 */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* 可選的陰影效果 */
-    z-index: 1000; /* 確保它在其他內容之上 */
-  }
 
-  .fixed-bottom-container .icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    color: #000; /* 圖標顏色，可根據需求調整 */
-    text-decoration: none;
-  }
 
   ul {
     padding-inline-start: 0;
