@@ -1,11 +1,20 @@
 <template>
   <div class="coupon-section">
-    <div class="share-icon-container">
-      <a href="https://m.me/cleands717" target="_blank" class="share-icon-container">
-        <div class="share-icon">
-          <img src="../../assets/images/messenger.png" width="60px" alt="" />
+    <div class="d-none d-md-block">
+      <div class="share-icon-container">
+        <div class="share-icon mb-2">
+          <a href="https://lin.ee/v0Ta2kq" target="_blank">
+            <img src="../../assets/images/line.png" width="45px" alt="" />
+          </a>
         </div>
-      </a>
+        <div class="share-icon">
+          <a href="https://m.me/cleands717" target="_blank">
+            <img src="../../assets/images/messenger.png" width="45px" alt="" />
+          </a>
+
+          <div class="contact-text">線上詢問</div>
+        </div>
+      </div>
     </div>
     <div class="coupon-bg d-flex justify-content-center align-items-center"></div>
     <div class="container">

@@ -1,23 +1,124 @@
 <template>
   <div class="coupon-section">
-    <!-- <div class="share-icon-container">
-      <a href="https://m.me/cleands717" target="_blank" class="share-icon-container">
-        <div class="share-icon">
-          <img src="../../assets/images/messenger.png" width="60px" alt="" />
+    <div class="d-none d-md-block">
+      <div class="share-icon-container">
+        <div class="share-icon mb-2">
+          <a href="https://lin.ee/v0Ta2kq" target="_blank">
+            <img src="../../assets/images/line.png" width="45px" alt="" />
+          </a>
         </div>
-      </a>
-    </div>-->
-    <div class="coupon-bg d-flex justify-content-center align-items-center"></div>
-    <div class="container">
-      <div class="h3 my-4 discount-title p-4">預約清潔</div>
+        <div class="share-icon">
+          <a href="https://m.me/cleands717" target="_blank">
+            <img src="../../assets/images/messenger.png" width="45px" alt="" />
+          </a>
 
-      <div class="mb-5 py-2 text-left">
-        <h4>機型價格</h4>
-
-        <div class="border_tw2 mt-2"></div>
+          <div class="contact-text">線上詢問</div>
+        </div>
+      </div>
+    </div>
+    <div class="coupon-bg"></div>
+    <div class="container mt-5">
+      <!-- <div class="mt-2 mb-0 discount-title text-left">
+        <img src="../../assets/images/mop.png" width="32px" class="mb-3" alt="" />
+        服務流程
+      </div> -->
+      <div class="mb-4 pt-1 pb-0 bg-dark">
+        <p class="text-white pb-1" style="font-size: 22px">服務流程</p>
       </div>
 
-      <div class="row">
+      <div class="my-5">
+        <div class="row justify-content-around align-items-start">
+          <div class="row align-items-center col-lg-3 text-center" style="font-size: 16px">
+            <div class="col-lg-4 mb-4 mb-lg-1">
+              <img src="../../assets/images/chat.png" width="80px" class="img-fluid p-2" alt="" />
+            </div>
+
+            <div class="col-lg-8">
+              <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px">聯繫我們</u>
+              <p class="mt-4 PcDevice">
+                <span class="dot_size">●</span>
+                確認清洗需求
+              </p>
+              <p class="MbDevice mt-3"><span class="dot_size">●</span> 提供寄送詳細</p>
+              <p><span class="dot_size">●</span> 提供寄送詳細</p>
+            </div>
+          </div>
+          <div class="col-lg-1 PcDevice" style="margin-top: 32px">
+            <img
+              src="../../assets/images/Arrow_right2.png"
+              width="40px"
+              class="animate__delay_step1 img-fluid mx-3 animate__animated animate__fadeInLeft animate__repeat-3"
+              alt=""
+            />
+          </div>
+
+          <div class="col-lg-1 MbDevice my-3 text-center">
+            <img
+              src="../../assets/images/Arrow_down.png"
+              width="40px"
+              class="animate__delay_step2 img-fluid mx-3"
+              alt=""
+            />
+          </div>
+          <div class="row align-items-center col-lg-3 text-center text-lg-left">
+            <div class="col-lg-4">
+              <img src="../../assets/images/package.png" width="80px" class="img-fluid p-2" alt="" />
+            </div>
+            <div class="col-lg-8">
+              <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px">寄送流程</u>
+              <div class="PcDevice">
+                <div class="d-flex mt-3">
+                  <p class="dot_size mr-1">●</p>
+
+                  <p>吸塵器裝箱寄出</p>
+                </div>
+              </div>
+              <p class="MbDevice mt-3"><span class="dot_size">●</span> 7/11寄出或面交</p>
+              <p><span class="dot_size">●</span> 7/11寄出或面交</p>
+            </div>
+          </div>
+          <div class="col-lg-1 PcDevice" style="margin-top: 32px">
+            <img
+              src="../../assets/images/Arrow_right2.png"
+              width="40px"
+              class="animate__delay_step2 img-fluid mx-3 animate__animated animate__fadeInLeft animate__repeat-3"
+              alt=""
+            />
+          </div>
+
+          <div class="col-lg-1 MbDevice text-center my-3">
+            <img
+              src="../../assets/images/Arrow_down.png"
+              width="40px"
+              class="animate__delay_step2 img-fluid mx-3"
+              alt=""
+            />
+          </div>
+          <div class="row align-items-center col-lg-3 text-center">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <img src="../../assets/images/mop2.png" width="80px" class="img-fluid p-2" alt="" />
+            </div>
+
+            <div class="col-lg-8">
+              <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px">收貨清洗</u>
+
+              <p class="mt-4 PcDevice"><span class="dot_size">●</span> 拍照存影清潔過程</p>
+              <p class="MbDevice mt-3"><span class="dot_size">●</span> 拍照存影清潔過程</p>
+              <p><span class="dot_size">●</span> 寄回並通知取貨</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-4 pt-1 pb-0 bg-dark">
+        <p class="text-white pb-1" style="font-size: 22px">機型價格</p>
+      </div>
+
+      <div class="text-left mb-3">
+        <p>若對機型或價格有任何疑問，歡迎隨時聯繫我們，我們將盡力為您解答。</p>
+      </div>
+
+      <div class="row mb-4">
         <div class="col-md-3 mb-3 image-container">
           <img src="../../assets/images/price/sv18.png" class="img-fluid" alt="" />
         </div>
@@ -31,7 +132,7 @@
         </div>
 
         <div class="col-md-3 mb-3 image-container">
-          <img src="../../assets/images/price/v8.png" class="img-fluid" alt="" />
+          <img src="../../assets/images/price/v8.jpg" class="img-fluid" alt="" />
         </div>
 
         <div class="col-md-3 mb-3 image-container">
@@ -41,38 +142,43 @@
         <div class="col-md-3 mb-3 image-container">
           <img src="../../assets/images/price/v6.png" class="img-fluid" alt="" />
         </div>
-      </div>
 
+        <div class="col-md-3 mb-3 image-container">
+          <img src="../../assets/images/price/hand.jpg" class="img-fluid" alt="" />
+        </div>
+
+        <div class="col-md-3 mb-3 image-container">
+          <img src="../../assets/images/price/tool.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
 
       <!-- <div class="my-3 h5">請點擊圖示立即詢問</div> -->
 
-      <div class="mt-5 mb-4 py-2 text-left">
-        <h4>聯絡方式</h4>
-
-        <div class="border_tw3 mt-2"></div>
+      <div class="mb-4 pt-1 pb-0 bg-dark">
+        <p class="text-white pb-1" style="font-size: 22px">運送方式</p>
       </div>
 
-      <div class="row align-items-center">
-        <div class="col-1">
-          <img src="../../assets/images/messenger3.png" width="60px" />
-        </div>
-        <div class="col-1">
-          <img src="../../assets/images/facebook3.png" width="60px" />
-        </div>
-        <div class="col-1">
-          <img src="../../assets/images/Shopee2.png" width="60px" />
-        </div>
+      <div class="text-left mb-3">
+        <h5 style="font-size: 16px">
+          我們提供以下三種運送方式，<span class="text-danger"
+            >請先與我們聯繫，確認訂單後，我們將提供詳細的寄送流程供您參考。
+          </span>
+        </h5>
 
-        <div class="col-1">
-          <img src="../../assets/images/gmail5.png" width="63px" />
+        <div style="font-size: 17px">
+          <ul>
+            <li>7-11免運寄送(全省)</li>
+            <li>面交(萬華)</li>
+            <li>到府收送(雙北)</li>
+          </ul>
         </div>
       </div>
 
-      <br>
-            <br>
-      <br>
-      <br>
-
+      <div class="row text-left mb-4">
+        <div class="col-md-6">
+          <img src="../../assets/images/Serve_Img.png" class="img-fluid" alt="" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -109,7 +215,8 @@
   .coupon-section {
     font-family: monospace;
     p {
-      font-size: 13px;
+      font-size: 15px;
+      margin-bottom: 0px;
     }
     h4 {
       color: rgb(116, 113, 113);
@@ -117,10 +224,10 @@
   }
 
   .discount-title {
-    font-size: 37px;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 500;
     // border-bottom: 1px dashed rgb(206, 204, 201);
-    letter-spacing: 3px;
+    // letter-spacing: 2px;
     .icon {
       font-size: 30px;
       color: rgb(117, 117, 113);
@@ -177,16 +284,16 @@
     background: #e1e2e4;
   }
 
-    .image-container {
-  width: 260px; /* 设置固定宽度 */
-  height: 200px; /* 设置固定高度 */
-  overflow: hidden; /* 隐藏超出容器的内容 */
-  position: relative; /* 可选，用于更复杂的定位 */
-}
+  .image-container {
+    width: 260px; /* 设置固定宽度 */
+    height: 200px; /* 设置固定高度 */
+    overflow: hidden; /* 隐藏超出容器的内容 */
+    position: relative; /* 可选，用于更复杂的定位 */
+  }
 
-.image-container img {
-  width: 100%; /* 使图片宽度适应容器 */
-  height: 100%; /* 使图片高度适应容器 */
-  object-fit: cover; /* 保持图片的纵横比，裁剪图片以适应容器 */
-}
+  .image-container img {
+    width: 100%; /* 使图片宽度适应容器 */
+    height: 100%; /* 使图片高度适应容器 */
+    object-fit: cover; /* 保持图片的纵横比，裁剪图片以适应容器 */
+  }
 </style>

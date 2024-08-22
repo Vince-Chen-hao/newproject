@@ -29,9 +29,10 @@
                   <img src="../../assets/images/messenger3.png" width="30px" alt="" />
                 </a>
               </div>
-              <div>
-                <a href="mailto:Jessiekuo07@gmail.com">
-                  <img src="../../assets/images/gmail5.png" width="30px" alt="" />
+
+              <div class="mr-3">
+                <a href="https://lin.ee/v0Ta2kq" target="_blank">
+                  <img src="../../assets/images/line.png" width="30px" alt="" />
                 </a>
               </div>
             </div>

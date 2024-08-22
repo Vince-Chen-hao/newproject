@@ -86,4 +86,24 @@
     height: 140px;
     margin-top: 80px;
   }
+
+  @media (min-width: 768px) {
+    .PcDevice {
+      display: block;
+    }
+
+    .MbDevice {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .PcDevice {
+      display: none;
+    }
+
+    .MbDevice {
+      display: block;
+    }
+  }
 </style>

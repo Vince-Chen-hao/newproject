@@ -12,26 +12,24 @@
         <a href="index.html" class="navbar-brand">
           <img src="../../assets/images/Logo7.png" width="150px" alt="" />
         </a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <router-link to="/" @click.native="closeMenu" class="nav-link">首頁 </router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/About" @click.native="closeMenu" class="nav-link">服務流程 </router-link>
+              <router-link to="/Contact" @click.native="closeMenu" class="nav-link">服務流程 </router-link>
             </li>
             <li class="nav-item">
               <router-link to="/Review" @click.native="closeMenu" class="nav-link">客戶評價 </router-link>
             </li>
-            <li class="nav-item">
-              <router-link to="/Contact" @click.native="closeMenu" class="nav-link">預約清潔 </router-link>
-            </li>
-            <li class="nav-item">
+
+            <!-- <li class="nav-item">
               <router-link to="/QA" @click.native="closeMenu" class="nav-link">常見問題 </router-link>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -52,6 +50,11 @@
       closeMenu() {
         $('#navbarSupportedContent').collapse('hide')
       },
+    },
+
+    mounted() {
+      const navbarCollapse = $('#navbarSupportedContent')
+      console.log(navbarCollapse) // 查看這裡是否返回正確的元素
     },
 
     // computed: {
