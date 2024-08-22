@@ -25,7 +25,7 @@
                 </a>
               </div>
               <div class="mr-3">
-                <a href="https://m.me/cleands717" target="_blank">
+                <a href="https://www.facebook.com/cleands717" target="_blank">
                   <img src="../../assets/images/messenger3.png" width="30px" alt="" />
                 </a>
               </div>
