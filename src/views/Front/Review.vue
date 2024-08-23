@@ -44,7 +44,7 @@
         </div>
       </div>
     <div class="coupon-bg d-flex justify-content-center align-items-center"></div>
-    <div class="container mt-5">
+    <div class="mt-md-5 mt-3">
       <!-- <div class="h3 m-4 text-center discount-title p-4">
         <span class="icon">
           <i class="fas fa-ticket-alt"></i>
@@ -52,9 +52,15 @@
         客戶評價
       </div> -->
 
-      <div class="mb-4 pt-1 pb-0 bg-dark">
+      <div class="mb-4 pt-1 pb-0 bg-dark container">
         <p class="text-white pb-1" style="font-size: 22px">客戶評價</p>
       </div>
+      <div class="container">
+        <h5 class="text-left mb-4">
+          我們非常重視客戶的回饋，在蝦皮及FB上有超過380則的真實正面評價，高滿意度及高回訪率是我們的品質保證，我們熱心回應每一位顧客的問題，竭誠提供專業的服務，期待您來體驗，感受我們的用心與專業！
+        </h5>
+      </div>
+
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-6">
@@ -187,8 +193,35 @@
             </div>
           </div>
         </div>
-        <br>
-                <br>
+      </div>
+
+      <div class="bg-info py-5">
+        <h4 class="mb-4 text-white">顧客們的五星推薦</h4>
+
+        <div class="pb-md-0 pb-4 container">
+          <vue-slick-carousel v-bind="settings">
+            <div class="carousel-item-slick">
+              <img src="../../assets/images/review/fb_review1.png" width="100%" alt="" />
+            </div>
+
+            <div class="carousel-item-slick">
+              <img src="../../assets/images/review/fb_review2.jpg" width="100%" alt="" />
+            </div>
+            <div class="carousel-item-slick">
+              <img src="../../assets/images/review/sp_review1.jpg" width="100%" alt="" />
+            </div>
+
+            <div class="carousel-item-slick">
+              <img src="../../assets/images/review/sp_review2.jpg" width="100%" alt="" />
+            </div>
+
+            <div class="carousel-item-slick">
+              <img src="../../assets/images/review/sp_review3.jpg" width="100%" alt="" />
+            </div>
+          </vue-slick-carousel>
+        </div>
+
+        <br>        <br>
         <br>
 
       </div>
@@ -214,7 +247,46 @@
       }
     },
     data() {
-      return {}
+      return {
+        settings: {
+          dots: true,
+          infinite: true,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          speed: 500,
+          focusOnSelect: true,
+          autoplay: true,
+          arrows: true,
+
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+              },
+            },
+          ],
+        },
+      }
     },
 
     methods: {
@@ -283,5 +355,34 @@
     100% {
       opacity: 1;
     }
+  }
+
+  .carousel-item-slick {
+    max-height: 390px; /* 設定圖片最大高度為 200px，您可以根據需求調整這個值 */
+    object-fit: cover; /* 確保圖片超出高度部分被隱藏，且圖片內容不變形 */
+    width: 100%; /* 保持圖片寬度充滿 */
+    display: block;
+    padding: 0px 5px;
+  }
+
+  .carousel-item-slick-mb-dirty {
+    /* 設定圖片最大高度為 200px，您可以根據需求調整這個值 */
+    object-fit: cover; /* 確保圖片超出高度部分被隱藏，且圖片內容不變形 */
+    width: 100%; /* 保持圖片寬度充滿 */
+    display: block;
+    padding: 0px 5px;
+  }
+
+  .bg-info {
+    background: #596977 !important;
+  }
+
+  .ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    font-size: 16px;
   }
 </style>

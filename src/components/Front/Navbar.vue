@@ -122,7 +122,7 @@
       border-bottom: 1px solid rgba(65, 54, 54, 0.3);
 
       &:hover {
-        background: rgb(250, 238, 217);
+        background: #536471;
       }
 
       &.router-link-exact-active {

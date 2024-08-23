@@ -44,7 +44,7 @@
         </div>
       </div>
     <div class="coupon-bg"></div>
-    <div class="container mt-5">
+    <div class="container mt-md-5 mt-3">
       <!-- <div class="mt-2 mb-0 discount-title text-left">
         <img src="../../assets/images/mop.png" width="32px" class="mb-3" alt="" />
         服務流程
