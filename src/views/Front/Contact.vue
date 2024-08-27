@@ -167,7 +167,7 @@
         </div>
 
         <div class="col-md-3 mb-3 image-container">
-          <img src="../../assets/images/price/v6.png" class="img-fluid" alt="" />
+          <img src="../../assets/images/price/v6.jpg" class="img-fluid" alt="" />
         </div>
 
         <div class="col-md-3 mb-3 image-container">
