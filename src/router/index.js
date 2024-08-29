@@ -27,9 +27,9 @@ export default new VueRouter({
           path: '',
           name: 'Home',
           meta: {
-            title: '清清小森職人洗塵 - 官方網站',
+            title: '清清小森職人洗塵（dyson 達人) - 官方網站',
             description:
-              '我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，只要是無線的Dyson戴森吸塵器機型， 我們都能夠提供高品質的清潔與維修。',
+              '我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，各式Dyson戴森吸塵器機型， 我們都能夠提供高品質的清潔與維修。',
             keywords:
               '吸塵器, 清洗吸塵器, 清洗, 吸塵器髒, 吸塵器有臭味, dyson吸塵器, dyson, dyson吸塵器故障, 吸塵器吸力, dyson維修',
           },
@@ -47,9 +47,9 @@ export default new VueRouter({
           path: 'Review',
           name: 'Review',
           meta: {
-            title: '清清小森職人洗塵 - 客戶評價',
+            title: '清清小森職人洗塵（dyson 達人) - 客戶評價',
             description:
-              '我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，只要是無線的Dyson戴森吸塵器機型， 我們都能夠提供高品質的清潔與維修。',
+              '我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，各式Dyson戴森吸塵器機型， 我們都能夠提供高品質的清潔與維修。',
             keywords:
               '吸塵器, 清洗吸塵器, 清洗, 吸塵器髒, 吸塵器有臭味, dyson吸塵器, dyson, dyson吸塵器故障, 吸塵器吸力, dyson維修',
           },
@@ -61,9 +61,9 @@ export default new VueRouter({
           name: 'ContactPage',
 
           meta: {
-            title: '清清小森職人洗塵 - 預約清潔',
+            title: '清清小森職人洗塵（dyson 達人) - 預約清潔',
             description:
-              '我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，只要是無線的Dyson戴森吸塵器機型， 我們都能夠提供高品質的清潔與維修。',
+              '我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，各式Dyson戴森吸塵器機型， 我們都能夠提供高品質的清潔與維修。',
             keywords:
               '吸塵器, 清洗吸塵器, 清洗, 吸塵器髒, 吸塵器有臭味, dyson吸塵器, dyson, dyson吸塵器故障, 吸塵器吸力, dyson維修',
           },
@@ -74,9 +74,9 @@ export default new VueRouter({
           path: 'About',
           name: 'AboutPage',
           meta: {
-            title: '清清小森職人洗塵 - 服務流程',
+            title: '清清小森職人洗塵（dyson 達人) - 服務流程',
             description:
-              '我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，只要是無線的Dyson戴森吸塵器機型， 我們都能夠提供高品質的清潔與維修。',
+              '我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，各式Dyson戴森吸塵器機型， 我們都能夠提供高品質的清潔與維修。',
             keywords:
               '吸塵器, 清洗吸塵器, 清洗, 吸塵器髒, 吸塵器有臭味, dyson吸塵器, dyson, dyson吸塵器故障, 吸塵器吸力, dyson維修',
           },
@@ -87,9 +87,9 @@ export default new VueRouter({
           path: 'QA',
           name: 'QAPage',
           meta: {
-            title: '清清小森職人洗塵 - QA',
+            title: '清清小森職人洗塵（dyson 達人) - QA',
             description:
-              '我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，只要是無線的Dyson戴森吸塵器機型， 我們都能夠提供高品質的清潔與維修。',
+              '我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，各式Dyson戴森吸塵器機型， 我們都能夠提供高品質的清潔與維修。',
             keywords:
               '吸塵器, 清洗吸塵器, 清洗, 吸塵器髒, 吸塵器有臭味, dyson吸塵器, dyson, dyson吸塵器故障, 吸塵器吸力, dyson維修',
           },

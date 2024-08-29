@@ -72,14 +72,15 @@
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active w-100">
-              <img src="../../assets/images/home11.png" class="d-block w-100" alt="..." />
+              <a href="https://lin.ee/v0Ta2kq" target="_blank">
+              <img src="../../assets/images/home_line_ad.png" class="d-block w-100" alt="..." />
+               </a>
             </div>
             <div class="carousel-item">
-              <img src="../../assets/images/home12.png" class="d-block w-100" alt="..." />
+              <img src="../../assets/images/home13.png" class="d-block w-100" alt="..." />
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -115,7 +116,7 @@
               <h1 class="display-5">關於我們</h1>
               <div class="lead mt-4">
                 <p>
-                  我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，只要是無線的Dyson戴森吸塵器機型，
+                  我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，各式Dyson戴森吸塵器機型，
                   我們都能夠提供高品質的清潔與維修。我們的專業，成為您清潔Dyson戴森的最佳選擇，為您提供最細心周到的服務！
                 </p>
                 <!-- <p>我們的專業，成為您清潔Dyson戴森的最佳選擇，為您提供最細心周到的服務！</p> -->
