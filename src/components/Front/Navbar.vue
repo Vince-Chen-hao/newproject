@@ -21,6 +21,9 @@
               <router-link to="/" @click.native="closeMenu" class="nav-link">首頁 </router-link>
             </li>
             <li class="nav-item">
+              <span @click="scrollToThirdTopic" class="nav-link share-icon">服務項目 </span>
+            </li>
+            <li class="nav-item">
               <router-link to="/Contact" @click.native="closeMenu" class="nav-link">服務流程 </router-link>
             </li>
             <li class="nav-item">
@@ -47,6 +50,23 @@
     },
 
     methods: {
+
+      scrollToThirdTopic() {
+        // 檢查當前路徑是否已經是首頁
+        if (this.$route.name !== 'Home') {
+          this.$router.push({ name: 'Home' }).then(() => {
+            this.scrollToTopic()
+          })
+        } else {
+          this.scrollToTopic()
+        }
+      },
+      scrollToTopic() {
+        const element = document.getElementById('third-topic')
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' })
+        }
+      },
       closeMenu() {
         $('#navbarSupportedContent').collapse('hide')
       },

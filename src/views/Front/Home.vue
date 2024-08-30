@@ -77,7 +77,7 @@
             <div class="carousel-item active w-100">
               <a href="https://lin.ee/v0Ta2kq" target="_blank">
               <img src="../../assets/images/home_line_ad.png" class="d-block w-100" alt="..." />
-               </a>
+              </a>
             </div>
             <div class="carousel-item">
               <img src="../../assets/images/home13.png" class="d-block w-100" alt="..." />
@@ -114,7 +114,7 @@
           <div class="row">
             <div class="col py-md-5 py-4 text-light mt-1">
               <h1 class="display-5">關於我們</h1>
-              <div class="lead mt-4">
+              <div class="lead mt-4" id="third-topic">
                 <p>
                   我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，各式Dyson戴森吸塵器機型，
                   我們都能夠提供高品質的清潔與維修。我們的專業，成為您清潔Dyson戴森的最佳選擇，為您提供最細心周到的服務！
@@ -175,6 +175,93 @@
               </div>
             </div>
           </div>
+          <div class="mt-3 mb-4 pt-1 pb-0 bg-dark">
+            <p class="text-white pb-1" style="font-size: 24px">服務流程</p>
+          </div>
+
+          <div class="mt-4" style="color: #313131">
+            <div class="row justify-content-around align-items-start">
+              <div class="row align-items-center col-lg-3 text-center text-lg-left">
+                <div class="col-lg-3 mb-4 mb-lg-1">
+                  <img src="../../assets/images/chat.png" width="80px" class="img-fluid" alt="" />
+                </div>
+
+                <div class="col-lg-9" style="font-size: 17px">
+                  <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px">聯繫我們</u>
+                  <p class="mt-3 mb-0 PcDevice">
+                    <span class="dot_size">●</span>
+                    確認清洗需求
+                  </p>
+                  <p class="MbDevice mt-3"><span class="dot_size">●</span> 確認清洗需求</p>
+                  <p><span class="dot_size">●</span> 提供寄送詳細</p>
+                </div>
+              </div>
+              <div class="col-lg-1 PcDevice" style="margin-top: 32px">
+                <img
+                  src="../../assets/images/Arrow_right2.png"
+                  width="40px"
+                  class="animate__delay_step1 img-fluid mx-3 animate__animated animate__fadeInLeft animate__repeat-3"
+                  alt=""
+                />
+              </div>
+
+              <div class="col-lg-1 MbDevice my-3 text-center">
+                <img
+                  src="../../assets/images/Arrow_down.png"
+                  width="40px"
+                  class="animate__delay_step2 img-fluid mx-3"
+                  alt=""
+                />
+              </div>
+              <div class="row align-items-center col-lg-3 text-center text-lg-left" style="font-size: 17px">
+                <div class="col-lg-3">
+                  <img src="../../assets/images/package.png" width="80px" class="img-fluid" alt="" />
+                </div>
+                <div class="col-lg-9">
+                  <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px">寄送流程</u>
+
+                  <p class="mt-3 mb-0 PcDevice">
+                    <span class="dot_size">●</span>
+                    吸塵器裝箱寄出
+                  </p>
+                  <p class="MbDevice mt-3"><span class="dot_size">●</span> 吸塵器裝箱寄出</p>
+                  <p><span class="dot_size">●</span> 7/11寄出或面交</p>
+                </div>
+              </div>
+              <div class="col-lg-1 PcDevice" style="margin-top: 32px">
+                <img
+                  src="../../assets/images/Arrow_right2.png"
+                  width="40px"
+                  class="animate__delay_step2 img-fluid mx-3 animate__animated animate__fadeInLeft animate__repeat-3"
+                  alt=""
+                />
+              </div>
+
+              <div class="col-lg-1 MbDevice text-center my-3">
+                <img
+                  src="../../assets/images/Arrow_down.png"
+                  width="40px"
+                  class="animate__delay_step2 img-fluid mx-3"
+                  alt=""
+                />
+              </div>
+              <div class="row align-items-center col-lg-3 text-center text-lg-left">
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                  <img src="../../assets/images/mop2.png" width="80px" class="img-fluid" alt="" />
+                </div>
+
+                <div class="col-lg-9" style="font-size: 17px">
+                  <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px">收貨清洗</u>
+
+                  <p class="mt-3 mb-0 PcDevice"><span class="dot_size">●</span> 拍照存影清潔過程</p>
+                  <p class="MbDevice mt-3"><span class="dot_size">●</span> 拍照存影清潔過程</p>
+                  <p><span class="dot_size">●</span> 寄回並通知取貨</p>
+                </div>
+              </div>
+            </div>
+          </div>
+              <router-link to="/Contact" class="btn btn-outline-info mt-2">了解更多 </router-link>
+
         </div>
       </div>
 
@@ -218,7 +305,10 @@
                 <img src="../../assets/images/review/sp_review3.jpg" width="100%" alt="" />
               </div>
             </vue-slick-carousel>
+
           </div>
+          <router-link to="/Review" class="btn btn-outline-info mt-md-5 mt-3">更多評價 </router-link>
+
         </div>
       </section>
 
@@ -284,6 +374,7 @@
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
 
@@ -741,7 +832,7 @@
     }
 
     .companylogoSize {
-      width: 250px;
+      width: 170px;
     }
 
     .borderLine {
