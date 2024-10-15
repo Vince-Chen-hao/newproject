@@ -316,12 +316,12 @@
         <div class="bg-light">
           <div class="container">
             <div class="row align-items-center justify-content-between py-md-5 py-0" style="font-size: 16px">
-              <div class="col-lg-5 p-3">
+              <div class="col-lg-4 p-3">
                 <div class="video-container2">
                   <video src="../../../public/clean2.mp4" controls poster="../../assets/images/video_img2.jpg"></video>
                 </div>
               </div>
-              <div class="col-lg-6 p-3 mt-2 mt-md-0">
+              <div class="col-lg-7 p-3 mt-2 mt-md-0">
                 <h2 class="text-center">吸塵器長期未清潔的問題</h2>
                 <hr />
                 <div class="text-left mt-4">
@@ -926,7 +926,7 @@
 
         .video-container2 {
       width: 100%;
-      padding-top: 500px; /* 使容器保持正方形 */
+      padding-top: 520px; /* 使容器保持正方形 */
       position: relative;
       overflow: hidden;
     }
