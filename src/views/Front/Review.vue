@@ -151,7 +151,7 @@
             <div class="card mb-4">
               <div class="card-body">
                 <img src="../../assets/images/share5.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
-                <h5>即將起飛.</h5>
+                <h5>即將起飛</h5>
                 <p class="ellipsis">
                   好友推薦的這個清理達人真的太優秀這個清理達人「清清小森」，是專門清理Dyson的吸塵器，Dyson一台都不便宜，超怕送修以後被用壞
                 </p>

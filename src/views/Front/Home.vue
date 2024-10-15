@@ -315,13 +315,13 @@
       <section id="VideoIntro">
         <div class="bg-light">
           <div class="container">
-            <div class="row py-md-5 py-0" style="font-size: 16px">
+            <div class="row align-items-center justify-content-between py-md-5 py-0" style="font-size: 16px">
               <div class="col-lg-5 p-3">
-                <div class="video-container">
-                  <video src="../../../public/clean.mp4" controls poster="../../assets/images/video_img.png"></video>
+                <div class="video-container2">
+                  <video src="../../../public/clean2.mp4" controls poster="../../assets/images/video_img2.jpg"></video>
                 </div>
               </div>
-              <div class="col-lg-7 p-3 mt-2 mt-md-0">
+              <div class="col-lg-6 p-3 mt-2 mt-md-0">
                 <h2 class="text-center">吸塵器長期未清潔的問題</h2>
                 <hr />
                 <div class="text-left mt-4">
@@ -504,6 +504,16 @@
                 <img src="../../assets/images/Clean/Mb5.jpg" width="100%" alt="" />
               </div>
             </vue-slick-carousel>
+
+            <div class="mt-3">
+              <!-- <div class="video-container2">
+                <video src="../../../public/clean2.mp4" controls poster="../../assets/images/video_img2.jpg"></video>
+              </div> -->
+
+              <div class="video-container">
+                <video src="../../../public/clean.mp4" controls poster="../../assets/images/video_img.png"></video>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -831,6 +841,22 @@
       object-fit: cover; /* 避免視頻變形 */
     }
 
+        .video-container2 {
+      width: 100%;
+      padding-top: 550px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .video-container2 video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* 避免視頻變形 */
+    }
+
     .companylogoSize {
       width: 170px;
     }
@@ -890,6 +916,22 @@
     }
 
     .video-container video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* 避免視頻變形 */
+    }
+
+        .video-container2 {
+      width: 100%;
+      padding-top: 500px; /* 使容器保持正方形 */
+      position: relative;
+      overflow: hidden;
+    }
+
+    .video-container2 video {
       position: absolute;
       top: 0;
       left: 0;

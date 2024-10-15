@@ -53,12 +53,15 @@
 
       scrollToThirdTopic() {
         // 檢查當前路徑是否已經是首頁
+         // 檢查當前路徑是否已經是首頁
         if (this.$route.name !== 'Home') {
           this.$router.push({ name: 'Home' }).then(() => {
             this.scrollToTopic()
+            this.closeMenu()
           })
         } else {
           this.scrollToTopic()
+          this.closeMenu()
         }
       },
       scrollToTopic() {
