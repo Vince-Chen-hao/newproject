@@ -134,13 +134,11 @@
               <p><span class="dot_size" >●</span> 寄回並通知取貨</p>
             </div>
           </div>
-          <div id="third-topic2">
 
-          </div>
         </div>
       </div>
 
-      <div class="mb-4 pt-1 pb-0 bg-dark">
+      <div class="mb-4 pt-1 pb-0 bg-dark" id="third-topic2">
         <p class="text-white pb-1" style="font-size: 22px">機型價格</p>
       </div>
 
