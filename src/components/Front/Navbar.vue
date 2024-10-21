@@ -24,6 +24,9 @@
               <span @click="scrollToThirdTopic" class="nav-link share-icon">服務項目 </span>
             </li>
             <li class="nav-item">
+              <span @click="scrollToThirdTopic2" class="nav-link share-icon">機型價格 </span>
+            </li>
+            <li class="nav-item">
               <router-link to="/Contact" @click.native="closeMenu" class="nav-link">服務流程 </router-link>
             </li>
             <li class="nav-item">
@@ -64,8 +67,29 @@
           this.closeMenu()
         }
       },
+
+      scrollToThirdTopic2() {
+        // 檢查當前路徑是否已經是首頁
+         // 檢查當前路徑是否已經是首頁
+        if (this.$route.name !== 'Contact') {
+          this.$router.push({ name: 'Contact' }).then(() => {
+            this.scrollToTopic2()
+            this.closeMenu()
+          })
+        } else {
+          this.scrollToTopic2()
+          this.closeMenu()
+        }
+      },
       scrollToTopic() {
         const element = document.getElementById('third-topic')
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' })
+        }
+      },
+
+       scrollToTopic2() {
+        const element = document.getElementById('third-topic2')
         if (element) {
           element.scrollIntoView({ behavior: 'smooth' })
         }
