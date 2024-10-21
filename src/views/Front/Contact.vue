@@ -49,7 +49,7 @@
         <img src="../../assets/images/mop.png" width="32px" class="mb-3" alt="" />
         服務流程
       </div> -->
-      <div class="mb-4 pt-1 pb-0 bg-dark" id="third-topic2">
+      <div class="mb-4 pt-1 pb-0 bg-dark" >
         <p class="text-white pb-1" style="font-size: 22px">服務流程</p>
       </div>
 
@@ -127,7 +127,7 @@
             </div>
 
             <div class="col-lg-8">
-              <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px">收貨清洗</u>
+              <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px" id="third-topic2">收貨清洗</u>
 
               <p class="mt-4 PcDevice"><span class="dot_size">●</span> 拍照存影清潔過程</p>
               <p class="MbDevice mt-3"><span class="dot_size">●</span> 拍照存影清潔過程</p>
