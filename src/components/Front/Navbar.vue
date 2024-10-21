@@ -69,10 +69,9 @@
       },
 
       scrollToThirdTopic2() {
-        // 檢查當前路徑是否已經是首頁
-         // 檢查當前路徑是否已經是首頁
-        if (this.$route.name !== 'Contact') {
-          this.$router.push({ name: 'Contact' }).then(() => {
+
+        if (this.$route.name !== 'ContactPage') {
+          this.$router.push({ name: 'ContactPage' }).then(() => {
             this.scrollToTopic2()
             this.closeMenu()
           })
