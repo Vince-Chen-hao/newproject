@@ -127,11 +127,11 @@
             </div>
 
             <div class="col-lg-8">
-              <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px" id="third-topic2">收貨清洗</u>
+              <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px" >收貨清洗</u>
 
               <p class="mt-4 PcDevice"><span class="dot_size">●</span> 拍照存影清潔過程</p>
               <p class="MbDevice mt-3"><span class="dot_size">●</span> 拍照存影清潔過程</p>
-              <p><span class="dot_size">●</span> 寄回並通知取貨</p>
+              <p><span class="dot_size" id="third-topic2">●</span> 寄回並通知取貨</p>
             </div>
           </div>
         </div>
