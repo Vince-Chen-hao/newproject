@@ -114,7 +114,7 @@
           <div class="row">
             <div class="col py-md-5 py-4 text-light mt-1">
               <h1 class="display-5">關於我們</h1>
-              <div class="lead mt-4" id="third-topic">
+              <div class="lead mt-4" >
                 <p>
                   我們是一群充滿專業熱忱的清潔維修團隊，擁有親切與確實的優質服務，各式Dyson戴森吸塵器機型，
                   我們都能夠提供高品質的清潔與維修。我們的專業，成為您清潔Dyson戴森的最佳選擇，為您提供最細心周到的服務！
@@ -251,7 +251,7 @@
                 </div>
 
                 <div class="col-lg-9" style="font-size: 17px">
-                  <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px">收貨清洗</u>
+                  <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px" id="third-topic">收貨清洗</u>
 
                   <p class="mt-3 mb-0 PcDevice"><span class="dot_size">●</span> 拍照存影清潔過程</p>
                   <p class="MbDevice mt-3"><span class="dot_size">●</span> 拍照存影清潔過程</p>
