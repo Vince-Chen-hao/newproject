@@ -101,7 +101,7 @@
                 </div>
               </div>
               <p class="MbDevice mt-3"><span class="dot_size">●</span> 吸塵器裝箱寄出</p>
-              <p><span class="dot_size">●</span> 7/11寄出或面交</p>
+              <p><span class="dot_size">●</span> 7-11寄出或面交</p>
             </div>
           </div>
           <div class="col-lg-1 PcDevice" style="margin-top: 32px">
