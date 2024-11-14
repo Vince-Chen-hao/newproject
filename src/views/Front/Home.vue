@@ -150,27 +150,27 @@
                   <div class="mr-4">
                     <img src="../../assets/images/check3.png" width="30px" alt="" />
                   </div>
-                  <div>Dyson主機與刷頭的專業清洗服務</div>
+                  <div>Dyson主機與刷頭深層清洗服務</div>
                 </div>
 
                 <div class="d-flex align-items-center mb-3">
                   <div class="mr-4">
                     <img src="../../assets/images/check3.png" width="30px" alt="" />
                   </div>
-                  <div>Dyson 吸塵器零件銷售與更換</div>
+                  <div>Dyson吸塵器零件銷售與更換</div>
                 </div>
 
                 <div class="d-flex align-items-center mb-3">
                   <div class="mr-4">
                     <img src="../../assets/images/check3.png" width="30px" alt="" />
                   </div>
-                  <div>吸塵器濾心清洗與更換服務</div>
+                  <div>吸塵器濾心洗潔與更換服務</div>
                 </div>
                 <div class="d-flex align-items-center mb-3">
                   <div class="mr-4">
                     <img src="../../assets/images/check3.png" width="30px" alt="" />
                   </div>
-                  <div>吸塵器吸力與性能檢測及調整建議</div>
+                  <div>吸塵器吸力、電池性能檢測及調整建議</div>
                 </div>
               </div>
             </div>
