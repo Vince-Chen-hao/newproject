@@ -74,12 +74,13 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item active w-100">
+           <!--  <div class="carousel-item active w-100">
               <a href="https://lin.ee/v0Ta2kq" target="_blank">
               <img src="../../assets/images/home_line_ad.png" class="d-block w-100" alt="..." />
               </a>
-            </div>
-            <div class="carousel-item">
+            </div> -->
+
+            <div class="carousel-item active w-100">
               <img src="../../assets/images/home13.png" class="d-block w-100" alt="..." />
             </div>
           </div>
