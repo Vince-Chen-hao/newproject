@@ -80,7 +80,7 @@
               </a>
             </div>
 
-            <div class="carousel-item active w-100">
+            <div class="carousel-item  w-100">
               <img src="../../assets/images/home13.png" class="d-block w-100" alt="..." />
             </div>
           </div>
