@@ -303,9 +303,9 @@
         <table class="table table-bordered">
           <thead class="thead-dark">
             <tr>
-              <th scope="col" width="15%">步驟</th>
-              <th scope="col" width="50%">說明</th>
-              <th scope="col">示意圖片</th>
+              <th scope="col" class="scope1">步驟</th>
+              <th scope="col" class="scope2">說明</th>
+              <th scope="col" class="scope3">示意圖片</th>
             </tr>
           </thead>
           <tbody>
@@ -347,7 +347,7 @@
                 <a :href="fancyboxImg1" data-fancybox="images"
                   ><img
                     src="../../assets/images/delivery/Pic1.jpg"
-                    height="150px"
+                    class="fancyboxImg"
                 /></a>
               </td>
             </tr>
@@ -360,7 +360,7 @@
                 <a :href="fancyboxImg2" data-fancybox="images"
                   ><img
                     src="../../assets/images/delivery/Pic2.jpg"
-                    height="150px"
+                    class="fancyboxImg"
                 /></a>
               </td>
             </tr>
@@ -375,7 +375,7 @@
                 <a :href="fancyboxImg3" data-fancybox="images"
                   ><img
                     src="../../assets/images/delivery/Pic3.jpg"
-                    height="150px"
+                    class="fancyboxImg"
                 /></a>
               </td>
             </tr>
@@ -388,7 +388,7 @@
                 <a :href="fancyboxImg4" data-fancybox="images"
                   ><img
                     src="../../assets/images/delivery/Pic4.jpg"
-                    height="150px"
+                    class="fancyboxImg"
                 /></a>
               </td>
             </tr>
@@ -529,6 +529,22 @@ export default {
   .MbDevice {
     display: none;
   }
+
+  .scope1 {
+    width: 15%;
+  }
+
+  .scope2 {
+    width: 50%;
+  }
+
+  .scope3 {
+    width: 35%;
+  }
+
+  .fancyboxImg {
+    height: 150px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -538,6 +554,22 @@ export default {
 
   .MbDevice {
     display: block;
+  }
+
+  .scope1 {
+    width: 25%;
+  }
+
+  .scope2 {
+    width: 50%;
+  }
+
+  .scope3 {
+    width: 25%;
+  }
+
+  .fancyboxImg {
+    height: 70px;
   }
 }
 
