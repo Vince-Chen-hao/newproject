@@ -326,7 +326,7 @@
                 <a :href="fancyboxImg1" data-fancybox="images"
                   ><img
                     src="../../assets/images/delivery/Pic1.jpg"
-                    class="img-fluid"
+                    height="150px"
                 /></a>
               </td>
             </tr>
@@ -348,7 +348,7 @@
                     <a :href="fancyboxImg2" data-fancybox="images"
                       ><img
                         src="../../assets/images/delivery/Pic2.jpg"
-                        class="img-fluid"
+                        height="150px"
                     /></a>
                   </td>
                 </div>
@@ -366,7 +366,7 @@
                 <a :href="fancyboxImg3" data-fancybox="images"
                   ><img
                     src="../../assets/images/delivery/Pic3.jpg"
-                    class="img-fluid"
+                    height="150px"
                 /></a>
               </td>
             </tr>
