@@ -188,7 +188,7 @@
       </div>
 
       <div class="row mb-4">
-        <div class="col-md-3 mb-3 image-container">
+        <div class="col-md-3 col-6 mb-3 image-container">
           <img
             src="../../assets/images/price/sv18.png"
             class="img-fluid"
@@ -196,7 +196,7 @@
           />
         </div>
 
-        <div class="col-md-3 mb-3 image-container">
+        <div class="col-md-3 col-6 mb-3 image-container">
           <img
             src="../../assets/images/price/v12.jpg"
             class="img-fluid"
@@ -204,7 +204,7 @@
           />
         </div>
 
-        <div class="col-md-3 mb-3 image-container">
+        <div class="col-md-3 col-6 mb-3 image-container">
           <img
             src="../../assets/images/price/v11.png"
             class="img-fluid"
@@ -212,7 +212,7 @@
           />
         </div>
 
-        <div class="col-md-3 mb-3 image-container">
+        <div class="col-md-3 col-6 mb-3 image-container">
           <img
             src="../../assets/images/price/v10.png"
             class="img-fluid"
@@ -220,7 +220,7 @@
           />
         </div>
 
-        <div class="col-md-3 mb-3 image-container">
+        <div class="col-md-3 col-6 mb-3 image-container">
           <img
             src="../../assets/images/price/v8.jpg"
             class="img-fluid"
@@ -228,7 +228,7 @@
           />
         </div>
 
-        <div class="col-md-3 mb-3 image-container">
+        <div class="col-md-3 col-6 mb-3 image-container">
           <img
             src="../../assets/images/price/v7.png"
             class="img-fluid"
@@ -236,7 +236,7 @@
           />
         </div>
 
-        <div class="col-md-3 mb-3 image-container">
+        <div class="col-md-3 col-6 mb-3 image-container">
           <img
             src="../../assets/images/price/v6.jpg"
             class="img-fluid"
@@ -244,7 +244,7 @@
           />
         </div>
 
-        <div class="col-md-3 mb-3 image-container">
+        <div class="col-md-3 col-6 mb-3 image-container">
           <img
             src="../../assets/images/price/hand.jpg"
             class="img-fluid"
@@ -252,7 +252,7 @@
           />
         </div>
 
-        <div class="col-md-3 mb-3 image-container">
+        <div class="col-md-3 col-6 mb-3 image-container">
           <img
             src="../../assets/images/price/tool.jpg"
             class="img-fluid"
