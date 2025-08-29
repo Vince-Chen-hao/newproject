@@ -315,7 +315,7 @@
                 <div class="mb-1">步驟一</div>
                 <div class="text-primary">取交貨便代碼</div>
               </th>
-              <td>
+              <td class="description">
                 告知您的姓名、電話，以及7-11取貨門市的店名(或店號)，我們會給您一組交貨便代碼。
                 <br />
                 <span class="text-muted">
@@ -331,11 +331,11 @@
                 <div class="mb-1">步驟二</div>
                 <div class="text-primary">打包機器</div>
               </th>
-              <td>
+              <td class="description">
                 打包您的機器
                 (如右圖圖示)，打包前請先充飽電，並將集塵盒的垃圾清空。
 
-                <div class="mt-2" style="font-size: ">
+                <div class="mt-2">
                   貼心小叮嚀：因為7-11寄件有體積材限制 (材積最長邊≦ 45cm；
                   長＋寬＋高合計 ≦105cm；重量 ≦ 5kg)，
                   包裝時請注意箱子的大小以免超過限制，並以氣泡紙或報紙放入當作緩衝，
@@ -355,7 +355,7 @@
               </td>
             </tr>
             <tr>
-              <td>
+              <td class="description">
                 若找不到合適的箱子，可至7-11櫃台購買，大小及價格如右圖參考
               </td>
 
@@ -373,7 +373,7 @@
                 <div class="mb-1">步驟三</div>
                 <div class="text-primary">到7-11的ibon機器列印寄件單</div>
               </th>
-              <td>到了 7-ELEVEN，找到 ibon 的服務機。</td>
+              <td class="description">到了 7-ELEVEN，找到 ibon 的服務機。</td>
               <td align="center">
                 <a :href="fancyboxImg3" data-fancybox="images"
                   ><img
@@ -383,7 +383,9 @@
               </td>
             </tr>
             <tr>
-              <td>在 7-11 的 iBon 機台選左上角”代碼輸入”，即可輸入代碼。</td>
+              <td class="description">
+                在 7-11 的 iBon 機台選左上角”代碼輸入”，即可輸入代碼。
+              </td>
 
               <td align="center">
                 <a :href="fancyboxImg4" data-fancybox="images"
@@ -545,5 +547,15 @@ export default {
 .table td,
 .table th {
   vertical-align: middle;
+}
+
+.table td.description {
+  text-align: left;
+}
+
+/* 步驟與示意圖片欄置中 */
+.table th.step,
+.table td.image {
+  text-align: center;
 }
 </style>
