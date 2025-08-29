@@ -623,14 +623,17 @@ export default {
 
   .scope1 {
     width: 15%;
+    font-size: 17px;
   }
 
   .scope2 {
     width: 55%;
+    font-size: 17px;
   }
 
   .scope3 {
     width: 30%;
+    font-size: 17px;
   }
 
   .fancyboxImg {
@@ -654,14 +657,17 @@ export default {
 
   .scope1 {
     width: 25%;
+    font-size: 16px;
   }
 
   .scope2 {
     width: 50%;
+    font-size: 16px;
   }
 
   .scope3 {
     width: 25%;
+    font-size: 16px;
   }
 
   .fancyboxImg {
