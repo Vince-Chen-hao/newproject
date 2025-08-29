@@ -339,8 +339,8 @@
               <td>
                 <div>
                   <td align="center">
-                    <a href="fancyboxImg3" data-fancybox="images"
-                      ><img src="../../assets/images/message.png"
+                    <a :href="fancyboxImg3" data-fancybox="images"
+                      ><img src="../../assets/images/message.png" width="50px"
                     /></a>
                   </td>
                 </div>
