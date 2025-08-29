@@ -342,16 +342,13 @@
                   以減少機器在運送過程中發生碰撞。
                 </div>
               </td>
-              <td>
-                <div>
-                  <td align="center">
-                    <a :href="fancyboxImg1" data-fancybox="images"
-                      ><img
-                        src="../../assets/images/delivery/Pic1.jpg"
-                        height="150px"
-                    /></a>
-                  </td>
-                </div>
+
+              <td align="center">
+                <a :href="fancyboxImg1" data-fancybox="images"
+                  ><img
+                    src="../../assets/images/delivery/Pic1.jpg"
+                    height="150px"
+                /></a>
               </td>
             </tr>
             <tr>
