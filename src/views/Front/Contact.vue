@@ -323,11 +323,11 @@
                 ➤
                 告知您的姓名、電話，以及7-11取貨門市的店名(或店號)，我們會給您一組交貨便代碼
                 <br />
-                <span class="text-muted mt-2">
+                <div class="text-muted mt-2">
                   貼心小叮嚀：取得交貨便代碼後請於<span class="text-danger"
                     >四日</span
                   >內將您的機器寄出，超過四日該代碼即失效
-                </span>
+                </div>
               </td>
               <td align="center"></td>
             </tr>
@@ -436,7 +436,7 @@
 
             <tr>
               <td class="description">
-                ➤ 然後接著後續的操作，就可以將寄件單印出來
+                ➤ 然後接著後續的操作，就可以將寄件單印出
               </td>
 
               <td align="center">
@@ -454,7 +454,7 @@
                 <div class="mb-1">步驟四</div>
                 <div class="text-primary">至櫃台交寄</div>
               </th>
-              <td class="description">➤ 印出來的寄件單如右圖</td>
+              <td class="description">➤ 印出的寄件單如右圖</td>
 
               <td align="center">
                 <a :href="fancyboxImg8" data-fancybox="images"
