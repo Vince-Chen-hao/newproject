@@ -337,7 +337,13 @@
               </td>
               <!-- 右側圖片合併 -->
               <td>
-                <div>（示意圖 1）</div>
+                <div>
+                  <td align="center">
+                    <a href="fancyboxImg3" data-fancybox="images"
+                      ><img src="../../assets/images/message.png"
+                    /></a>
+                  </td>
+                </div>
               </td>
             </tr>
             <tr>
@@ -376,7 +382,9 @@ export default {
   },
 
   data() {
-    return {};
+    return {
+      fancyboxImg3: require("@/assets/images/message.png"),
+    };
   },
 
   methods: {
