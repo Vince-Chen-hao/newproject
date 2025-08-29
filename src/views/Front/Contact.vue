@@ -18,55 +18,77 @@
     </div>
 
     <div class="d-block d-md-none">
-        <div class="fixed-bottom-container py-1">
-          <div class="d-flex flex-column align-items-center">
-            <a href="https://m.me/cleands717" target="_blank" class="icon facebook" title="Facebook">
-              <img src="../../assets/images/message.png" width="35px" alt="" />
-            </a>
+      <div class="fixed-bottom-container py-1">
+        <div class="d-flex flex-column align-items-center">
+          <a
+            href="https://m.me/cleands717"
+            target="_blank"
+            class="icon facebook"
+            title="Facebook"
+          >
+            <img src="../../assets/images/message.png" width="35px" alt="" />
+          </a>
 
-            <div class="text-light">Facebook</div>
-          </div>
-          <div class="d-flex flex-column align-items-center">
-            <a href="https://lin.ee/v0Ta2kq" class="icon line" target="_blank" title="LINE">
-              <img src="../../assets/images/line.png" width="35px" alt="" />
-            </a>
-            <div class="text-light">Line</div>
-          </div>
-          <div class="d-flex flex-column align-items-center">
-            <a
-              href="https://shopee.tw/%E3%80%90%E6%B8%85%E6%B8%85%E5%B0%8F%E6%A3%AE-dyson-%E6%B8%85%E4%B8%80%E6%B8%85%E3%80%91%E6%B7%B1%E5%B1%A4%E6%B8%85%E7%90%86%E6%B8%85%E6%BD%94-%E6%88%B4%E6%A3%AE-dyson-%E5%90%B8%E5%A1%B5%E5%99%A8-%E9%9B%BB%E5%8B%95%E5%90%B8%E9%A0%AD-900%E8%B5%B7-%E5%85%A8%E5%8F%B07-11%E6%94%B6%E9%80%81%E4%BB%B6-i.3918719.461535767?srsltid=AfmBOory6i1RKFi0doazzwgpDANfXy6EcMArGtdRoDl-4SWh5Pwz95Lv"
-              target="_blank"
-            >
-              <img src="../../assets/images/Shopee2.png" width="35px" alt="" />
-            </a>
-            <div class="text-light">Shopee</div>
-          </div>
+          <div class="text-light">Facebook</div>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <a
+            href="https://lin.ee/v0Ta2kq"
+            class="icon line"
+            target="_blank"
+            title="LINE"
+          >
+            <img src="../../assets/images/line.png" width="35px" alt="" />
+          </a>
+          <div class="text-light">Line</div>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <a
+            href="https://shopee.tw/%E3%80%90%E6%B8%85%E6%B8%85%E5%B0%8F%E6%A3%AE-dyson-%E6%B8%85%E4%B8%80%E6%B8%85%E3%80%91%E6%B7%B1%E5%B1%A4%E6%B8%85%E7%90%86%E6%B8%85%E6%BD%94-%E6%88%B4%E6%A3%AE-dyson-%E5%90%B8%E5%A1%B5%E5%99%A8-%E9%9B%BB%E5%8B%95%E5%90%B8%E9%A0%AD-900%E8%B5%B7-%E5%85%A8%E5%8F%B07-11%E6%94%B6%E9%80%81%E4%BB%B6-i.3918719.461535767?srsltid=AfmBOory6i1RKFi0doazzwgpDANfXy6EcMArGtdRoDl-4SWh5Pwz95Lv"
+            target="_blank"
+          >
+            <img src="../../assets/images/Shopee2.png" width="35px" alt="" />
+          </a>
+          <div class="text-light">Shopee</div>
         </div>
       </div>
+    </div>
     <div class="coupon-bg"></div>
     <div class="container mt-md-5 mt-3">
       <!-- <div class="mt-2 mb-0 discount-title text-left">
         <img src="../../assets/images/mop.png" width="32px" class="mb-3" alt="" />
         服務流程
       </div> -->
-      <div class="mb-4 pt-1 pb-0 bg-dark" >
+      <div class="mb-4 pt-1 pb-0 bg-dark">
         <p class="text-white pb-1" style="font-size: 22px">服務流程</p>
       </div>
 
       <div class="my-5">
         <div class="row justify-content-around align-items-start">
-          <div class="row align-items-center col-lg-3 text-center" style="font-size: 16px">
+          <div
+            class="row align-items-center col-lg-3 text-center"
+            style="font-size: 16px"
+          >
             <div class="col-lg-4 mb-4 mb-lg-1">
-              <img src="../../assets/images/chat.png" width="80px" class="img-fluid p-2" alt="" />
+              <img
+                src="../../assets/images/chat.png"
+                width="80px"
+                class="img-fluid p-2"
+                alt=""
+              />
             </div>
 
             <div class="col-lg-8">
-              <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px">聯繫我們</u>
+              <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px"
+                >聯繫我們</u
+              >
               <p class="mt-4 PcDevice">
                 <span class="dot_size">●</span>
                 確認清洗需求
               </p>
-              <p class="MbDevice mt-3"><span class="dot_size">●</span> 確認清洗需求</p>
+              <p class="MbDevice mt-3">
+                <span class="dot_size">●</span> 確認清洗需求
+              </p>
               <p><span class="dot_size">●</span> 提供寄送詳細</p>
             </div>
           </div>
@@ -89,10 +111,17 @@
           </div>
           <div class="row align-items-center col-lg-3 text-center text-lg-left">
             <div class="col-lg-4">
-              <img src="../../assets/images/package.png" width="80px" class="img-fluid p-2" alt="" />
+              <img
+                src="../../assets/images/package.png"
+                width="80px"
+                class="img-fluid p-2"
+                alt=""
+              />
             </div>
             <div class="col-lg-8">
-              <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px">寄送流程</u>
+              <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px"
+                >寄送流程</u
+              >
               <div class="PcDevice">
                 <div class="d-flex mt-3">
                   <p class="dot_size mr-1">●</p>
@@ -100,7 +129,9 @@
                   <p>吸塵器裝箱寄出</p>
                 </div>
               </div>
-              <p class="MbDevice mt-3"><span class="dot_size">●</span> 吸塵器裝箱寄出</p>
+              <p class="MbDevice mt-3">
+                <span class="dot_size">●</span> 吸塵器裝箱寄出
+              </p>
               <p><span class="dot_size">●</span> 7-11寄出或面交</p>
             </div>
           </div>
@@ -123,18 +154,28 @@
           </div>
           <div class="row align-items-center col-lg-3 text-center">
             <div class="col-lg-4 mb-4 mb-lg-0">
-              <img src="../../assets/images/mop2.png" width="80px" class="img-fluid p-2" alt="" />
+              <img
+                src="../../assets/images/mop2.png"
+                width="80px"
+                class="img-fluid p-2"
+                alt=""
+              />
             </div>
 
             <div class="col-lg-8">
-              <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px" >收貨清洗</u>
+              <u class="ml-1 font-weight-bold h5" style="letter-spacing: 2px"
+                >收貨清洗</u
+              >
 
-              <p class="mt-4 PcDevice" ><span class="dot_size">●</span> 拍照存影清潔過程</p>
-              <p class="MbDevice mt-3" ><span class="dot_size">●</span> 拍照存影清潔過程</p>
-              <p><span class="dot_size" >●</span> 寄回並通知取貨</p>
+              <p class="mt-4 PcDevice">
+                <span class="dot_size">●</span> 拍照存影清潔過程
+              </p>
+              <p class="MbDevice mt-3">
+                <span class="dot_size">●</span> 拍照存影清潔過程
+              </p>
+              <p><span class="dot_size">●</span> 寄回並通知取貨</p>
             </div>
           </div>
-
         </div>
       </div>
 
@@ -148,39 +189,75 @@
 
       <div class="row mb-4">
         <div class="col-md-3 mb-3 image-container">
-          <img src="../../assets/images/price/sv18.png" class="img-fluid" alt="" />
-        </div>
-
-         <div class="col-md-3 mb-3 image-container">
-          <img src="../../assets/images/price/v12.jpg" class="img-fluid" alt="" />
-        </div>
-
-        <div class="col-md-3 mb-3 image-container">
-          <img src="../../assets/images/price/v11.png" class="img-fluid" alt="" />
+          <img
+            src="../../assets/images/price/sv18.png"
+            class="img-fluid"
+            alt=""
+          />
         </div>
 
         <div class="col-md-3 mb-3 image-container">
-          <img src="../../assets/images/price/v10.png" class="img-fluid" alt="" />
+          <img
+            src="../../assets/images/price/v12.jpg"
+            class="img-fluid"
+            alt=""
+          />
         </div>
 
         <div class="col-md-3 mb-3 image-container">
-          <img src="../../assets/images/price/v8.jpg" class="img-fluid" alt="" />
+          <img
+            src="../../assets/images/price/v11.png"
+            class="img-fluid"
+            alt=""
+          />
         </div>
 
         <div class="col-md-3 mb-3 image-container">
-          <img src="../../assets/images/price/v7.png" class="img-fluid" alt="" />
+          <img
+            src="../../assets/images/price/v10.png"
+            class="img-fluid"
+            alt=""
+          />
         </div>
 
         <div class="col-md-3 mb-3 image-container">
-          <img src="../../assets/images/price/v6.jpg" class="img-fluid" alt="" />
+          <img
+            src="../../assets/images/price/v8.jpg"
+            class="img-fluid"
+            alt=""
+          />
         </div>
 
         <div class="col-md-3 mb-3 image-container">
-          <img src="../../assets/images/price/hand.jpg" class="img-fluid" alt="" />
+          <img
+            src="../../assets/images/price/v7.png"
+            class="img-fluid"
+            alt=""
+          />
         </div>
 
         <div class="col-md-3 mb-3 image-container">
-          <img src="../../assets/images/price/tool.jpg" class="img-fluid" alt="" />
+          <img
+            src="../../assets/images/price/v6.jpg"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+
+        <div class="col-md-3 mb-3 image-container">
+          <img
+            src="../../assets/images/price/hand.jpg"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+
+        <div class="col-md-3 mb-3 image-container">
+          <img
+            src="../../assets/images/price/tool.jpg"
+            class="img-fluid"
+            alt=""
+          />
         </div>
       </div>
 
@@ -208,146 +285,206 @@
 
       <div class="row text-left mb-4">
         <div class="col-md-6">
-          <img src="../../assets/images/Serve_Img.png" class="img-fluid" alt="" />
+          <img
+            src="../../assets/images/Serve_Img.png"
+            class="img-fluid"
+            alt=""
+          />
         </div>
       </div>
-      <br>
-       <br> <br>
+    </div>
+
+    <div class="mb-4 pt-1 pb-0 bg-dark">
+      <p class="text-white pb-1" style="font-size: 22px">
+        使用7-11交貨便操作流程
+      </p>
+    </div>
+
+    <div class="mt-4">
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">步驟</th>
+            <th scope="col">說明</th>
+            <th scope="col">示意圖片</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 步驟一 -->
+          <tr>
+            <th scope="row">
+              步驟一<br />
+              取交貨便代碼
+            </th>
+            <td>
+              告知您的姓名、電話，以及7-11取貨門市的店名(或店號)，我們會給您一組交貨便代碼。
+              <br />
+              <span class="text-muted">
+                貼心小叮嚀：取得交貨便代碼後請於四日內將您的機器寄出，超過四日該代碼即失效。
+              </span>
+            </td>
+            <td>（示意圖放這）</td>
+          </tr>
+
+          <!-- 步驟二 -->
+          <tr>
+            <th scope="row" rowspan="2">
+              步驟二<br />
+              打包機器
+            </th>
+            <td>
+              打包您的機器
+              (如下圖圖示)，打包前請先充飽電，並將集塵盒的垃圾清空。
+            </td>
+            <!-- 右側圖片合併 -->
+            <td rowspan="2">
+              <div>（示意圖 1）</div>
+              <div class="mt-2">（示意圖 2）</div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              貼心小叮嚀：因為7-11寄件有體積材限制 (材積最長邊≦ 45cm；
+              長＋寬＋高合計 ≦105cm；重量 ≦ 5kg)，
+              包裝時請注意箱子的大小以免超過限制，並以氣泡紙或報紙放入當作緩衝，
+              以減少機器在運送過程中發生碰撞。
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
 
 <script>
-  export default {
-    metaInfo() {
-      return {
-        title: this.$route.meta.title || '預設標題',
-        meta: [
-          {
-            name: 'description',
-            content: this.$route.meta.description || '預設描述',
-          },
-          {
-            name: 'keywords',
-            content: this.$route.meta.keywords || '預設關鍵字',
-          },
-        ],
-      }
-    },
+export default {
+  metaInfo() {
+    return {
+      title: this.$route.meta.title || "預設標題",
+      meta: [
+        {
+          name: "description",
+          content: this.$route.meta.description || "預設描述",
+        },
+        {
+          name: "keywords",
+          content: this.$route.meta.keywords || "預設關鍵字",
+        },
+      ],
+    };
+  },
 
-    data() {
-      return {}
-    },
+  data() {
+    return {};
+  },
 
-    methods: {
-      cobycode() {},
-    },
-  }
+  methods: {
+    cobycode() {},
+  },
+};
 </script>
 
 <style lang="scss">
-  .coupon-section {
-    font-family: monospace;
-    p {
-      font-size: 15px;
-      margin-bottom: 0px;
-    }
-    h4 {
-      color: rgb(116, 113, 113);
-    }
+.coupon-section {
+  font-family: monospace;
+  p {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  h4 {
+    color: rgb(116, 113, 113);
+  }
+}
+
+.discount-title {
+  font-size: 25px;
+  font-weight: 500;
+  // border-bottom: 1px dashed rgb(206, 204, 201);
+  // letter-spacing: 2px;
+  .icon {
+    font-size: 30px;
+    color: rgb(117, 117, 113);
+  }
+}
+
+.coupon-num-open {
+  border: 2px dashed rgba(107, 124, 126, 0.842);
+  animation: coupon-num-open 3.5s infinite;
+  color: rgba(78, 138, 146, 0.842);
+  font-family: fantasy;
+}
+
+.coupon-num {
+  border: 2px dashed rgba(107, 124, 126, 0.842);
+  color: rgba(107, 136, 139, 0.842);
+  font-family: fantasy;
+}
+
+.btn-warning {
+  color: #255d83;
+  &:hover {
+    color: #f3f4f5;
+  }
+}
+
+@keyframes coupon-num-open {
+  0% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.border_tw2 {
+  height: 2px;
+  border-left: 100px solid 5b7dc0;
+  background: #e1e2e4;
+}
+
+.border_tw3 {
+  height: 2px;
+  border-left: 100px solid 5b7dc0;
+  background: #e1e2e4;
+}
+
+.image-container {
+  overflow: hidden; /* 隐藏超出容器的内容 */
+  position: relative; /* 可选，用于更复杂的定位 */
+}
+
+.image-container img {
+  width: 100%; /* 使图片宽度适应容器 */
+  height: 100%; /* 使图片高度适应容器 */
+  object-fit: cover; /* 保持图片的纵横比，裁剪图片以适应容器 */
+}
+
+@media (min-width: 768px) {
+  .PcDevice {
+    display: block;
   }
 
-  .discount-title {
-    font-size: 25px;
-    font-weight: 500;
-    // border-bottom: 1px dashed rgb(206, 204, 201);
-    // letter-spacing: 2px;
-    .icon {
-      font-size: 30px;
-      color: rgb(117, 117, 113);
-    }
+  .MbDevice {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .PcDevice {
+    display: none;
   }
 
-  .coupon-num-open {
-    border: 2px dashed rgba(107, 124, 126, 0.842);
-    animation: coupon-num-open 3.5s infinite;
-    color: rgba(78, 138, 146, 0.842);
-    font-family: fantasy;
+  .MbDevice {
+    display: block;
   }
-
-  .coupon-num {
-    border: 2px dashed rgba(107, 124, 126, 0.842);
-    color: rgba(107, 136, 139, 0.842);
-    font-family: fantasy;
-  }
-
-  .btn-warning {
-    color: #255d83;
-    &:hover {
-      color: #f3f4f5;
-    }
-  }
-
-  @keyframes coupon-num-open {
-    0% {
-      opacity: 1;
-    }
-    75% {
-      opacity: 1;
-    }
-    80% {
-      opacity: 0;
-    }
-    85% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
-  .border_tw2 {
-    height: 2px;
-    border-left: 100px solid 5b7dc0;
-    background: #e1e2e4;
-  }
-
-  .border_tw3 {
-    height: 2px;
-    border-left: 100px solid 5b7dc0;
-    background: #e1e2e4;
-  }
-
-  .image-container {
-
-    overflow: hidden; /* 隐藏超出容器的内容 */
-    position: relative; /* 可选，用于更复杂的定位 */
-  }
-
-  .image-container img {
-    width: 100%; /* 使图片宽度适应容器 */
-    height: 100%; /* 使图片高度适应容器 */
-    object-fit: cover; /* 保持图片的纵横比，裁剪图片以适应容器 */
-  }
-
-
-  @media (min-width: 768px) {
-    .PcDevice {
-      display: block;
-    }
-
-    .MbDevice {
-      display: none;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .PcDevice {
-      display: none;
-    }
-
-    .MbDevice {
-      display: block;
-    }
-  }
+}
 </style>
