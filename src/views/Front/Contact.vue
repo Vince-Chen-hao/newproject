@@ -305,7 +305,7 @@
             <tr>
               <th scope="col" class="scope1">步驟</th>
               <th scope="col" class="scope2">說明</th>
-              <th scope="col" class="scope3">示意圖片</th>
+              <th scope="col" class="scope3">示意照片</th>
             </tr>
           </thead>
           <tbody>
@@ -316,6 +316,7 @@
                 <div class="text-primary">取交貨便代碼</div>
               </th>
               <td class="description">
+                ➤
                 告知您的姓名、電話，以及7-11取貨門市的店名(或店號)，我們會給您一組交貨便代碼。
                 <br />
                 <span class="text-muted">
@@ -332,10 +333,10 @@
                 <div class="text-primary">打包機器</div>
               </th>
               <td class="description">
-                打包您的機器
+                ➤ 打包您的機器
                 (如右圖圖示)，打包前請先充飽電，並將集塵盒的垃圾清空。
 
-                <div class="mt-2">
+                <div class="mt-2 text-muted">
                   貼心小叮嚀：因為7-11寄件有體積材限制 (材積最長邊≦ 45cm；
                   長＋寬＋高合計 ≦105cm；重量 ≦ 5kg)，
                   包裝時請注意箱子的大小以免超過限制，並以氣泡紙或報紙放入當作緩衝，
@@ -349,11 +350,14 @@
                     src="../../assets/images/delivery/Pic1.jpg"
                     class="fancyboxImg"
                 /></a>
+                <div class="mt-1 text-danger" style="font-size: 13px">
+                  *點圖片可放大
+                </div>
               </td>
             </tr>
             <tr>
               <td class="description">
-                若找不到合適的箱子，可至7-11櫃台購買，大小及價格如右圖參考
+                ➤ 若找不到合適的箱子，可至7-11櫃台購買，大小及價格如右圖參考
               </td>
 
               <td align="center">
@@ -362,6 +366,9 @@
                     src="../../assets/images/delivery/Pic2.jpg"
                     class="fancyboxImg"
                 /></a>
+                <div class="mt-1 text-danger" style="font-size: 13px">
+                  *點圖片可放大
+                </div>
               </td>
             </tr>
 
@@ -377,11 +384,14 @@
                     src="../../assets/images/delivery/Pic3.jpg"
                     class="fancyboxImg"
                 /></a>
+                <div class="mt-1 text-danger" style="font-size: 13px">
+                  *點圖片可放大
+                </div>
               </td>
             </tr>
             <tr>
               <td class="description">
-                在 7-11 的 iBon 機台選左上角”代碼輸入”，即可輸入代碼。
+                ➤ 在 7-11 的 iBon 機台選左上角”代碼輸入”，即可輸入代碼。
               </td>
 
               <td align="center">
@@ -390,12 +400,15 @@
                     src="../../assets/images/delivery/Pic4.jpg"
                     class="fancyboxImg"
                 /></a>
+                <div class="mt-1 text-danger" style="font-size: 13px">
+                  *點圖片可放大
+                </div>
               </td>
             </tr>
 
             <tr>
               <td class="description">
-                ▼ 輸入「 我們給您的那一組交貨便代碼」。
+                ➤ 輸入「 我們給您的那一組交貨便代碼」。
               </td>
 
               <td align="center">
@@ -404,10 +417,14 @@
                     src="../../assets/images/delivery/Pic5.jpg"
                     class="fancyboxImg"
                 /></a>
+                <div class="mt-1 text-danger" style="font-size: 13px">
+                  *點圖片可放大
+                </div>
               </td>
             </tr>
             <tr>
               <td class="description">
+                ➤
                 再來會出現確認畫面(如下圖圖示，我們的寄件設定就是賣家(郭珍伶)與買家(陳小小))，核對一下左下的交貨便代碼有沒有問題。
               </td>
 
@@ -417,12 +434,15 @@
                     src="../../assets/images/delivery/Pic6.jpg"
                     class="fancyboxImg"
                 /></a>
+                <div class="mt-1 text-danger" style="font-size: 13px">
+                  *點圖片可放大
+                </div>
               </td>
             </tr>
 
             <tr>
               <td class="description">
-                然後接著後續的操作，就可以將寄件單印出來了。
+                ➤ 然後接著後續的操作，就可以將寄件單印出來了。
               </td>
 
               <td align="center">
@@ -431,6 +451,9 @@
                     src="../../assets/images/delivery/Pic7.jpg"
                     class="fancyboxImg"
                 /></a>
+                <div class="mt-1 text-danger" style="font-size: 13px">
+                  *點圖片可放大
+                </div>
               </td>
             </tr>
 
@@ -439,7 +462,7 @@
                 <div class="mb-1">步驟四</div>
                 <div class="text-primary">至櫃台交寄</div>
               </th>
-              <td class="description">印出來的寄件單長這樣。</td>
+              <td class="description">➤ 印出來的寄件單長這樣。</td>
 
               <td align="center">
                 <a :href="fancyboxImg8" data-fancybox="images"
@@ -447,11 +470,14 @@
                     src="../../assets/images/delivery/Pic8.jpg"
                     class="fancyboxImg"
                 /></a>
+                <div class="mt-1 text-danger" style="font-size: 13px">
+                  *點圖片可放大
+                </div>
               </td>
             </tr>
             <tr>
               <td class="description">
-                寄件單貼在包裹上，這樣就可以去櫃台寄出了(交寄時不用付費)。
+                ➤ 寄件單貼在包裹上，這樣就可以去櫃台寄出了(交寄時不用付費)。
               </td>
 
               <td align="center">
@@ -460,14 +486,17 @@
                     src="../../assets/images/delivery/Pic9.jpg"
                     class="fancyboxImg"
                 /></a>
+                <div class="mt-1 text-danger" style="font-size: 13px">
+                  *點圖片可放大
+                </div>
               </td>
             </tr>
           </tbody>
         </table>
 
-        <div class="mt-4">
+        <div class="mt-4 text-left">
           <div class="text-primary h5 mb-3">洗畢歸還</div>
-          <div>清潔完後,會利用【7-11超商取貨付款】將機器寄還給您。</div>
+          <div>➤ 清潔完後,會利用【7-11超商取貨付款】將機器寄還給您。</div>
         </div>
       </div>
     </div>
@@ -610,11 +639,11 @@ export default {
   }
 
   .scope2 {
-    width: 50%;
+    width: 55%;
   }
 
   .scope3 {
-    width: 35%;
+    width: 30%;
   }
 
   .fancyboxImg {
