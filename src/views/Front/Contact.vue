@@ -300,7 +300,7 @@
       </div>
 
       <div class="text-left" style="font-size: 17px">
-        ⭐使用7-11交貨便<span class="text-danger">(來回皆免運費)</span>
+        ⭐ 使用7-11交貨便<span class="text-danger">(來回皆免運費)</span>
       </div>
 
       <div class="mt-4">
