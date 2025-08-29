@@ -485,6 +485,18 @@
           </tbody>
         </table>
 
+        <div class="mt-3 text-left">
+          <iframe
+            width="1000px"
+            height="562px"
+            src="https://www.youtube.com/embed/EMn8CqGGP-o?autoplay=1&mute=1&loop=1&playlist=EMn8CqGGP-o"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+
         <div class="my-5 text-left">
           <div class="text-primary h5 mb-3">洗畢歸還</div>
           <div>▶ 清潔完後,會利用【7-11超商取貨付款】將機器寄還給您</div>
