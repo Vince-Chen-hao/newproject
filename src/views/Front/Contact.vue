@@ -322,7 +322,6 @@
                   貼心小叮嚀：取得交貨便代碼後請於四日內將您的機器寄出，超過四日該代碼即失效。
                 </span>
               </td>
-              <td></td>
               <td align="center">
                 <a :href="fancyboxImg1" data-fancybox="images"
                   ><img
@@ -518,5 +517,10 @@ export default {
   .MbDevice {
     display: block;
   }
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
 }
 </style>
