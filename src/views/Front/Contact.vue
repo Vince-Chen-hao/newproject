@@ -544,6 +544,7 @@ export default {
 
   .fancyboxImg {
     height: 150px;
+    width: auto;
   }
 }
 
@@ -569,7 +570,8 @@ export default {
   }
 
   .fancyboxImg {
-    height: 70px;
+    height: auto;
+    width: 55px;
   }
 }
 
