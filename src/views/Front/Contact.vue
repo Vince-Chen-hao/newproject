@@ -297,10 +297,10 @@
         <p class="text-white pb-1" style="font-size: 22px">
           7-11交貨便操作流程
         </p>
+      </div>
 
-        <p class="mt-3" style="font-size: 16px">
-          ⭐使用7-11交貨便<span class="text-danger">(來回皆免運費)</span>
-        </p>
+      <div class="mt-3" style="font-size: 16px">
+        ⭐使用7-11交貨便<span class="text-danger">(來回皆免運費)</span>
       </div>
 
       <div class="mt-4">
