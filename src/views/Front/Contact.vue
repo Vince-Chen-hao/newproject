@@ -295,7 +295,11 @@
 
       <div class="mb-4 pt-1 pb-0 bg-dark">
         <p class="text-white pb-1" style="font-size: 22px">
-          使用7-11交貨便操作流程
+          7-11交貨便操作流程
+        </p>
+
+        <p class="mt-3" style="font-size: 16px">
+          ⭐使用7-11交貨便<span class="text-danger">(來回皆免運費)</span>
         </p>
       </div>
 
@@ -320,7 +324,9 @@
                 告知您的姓名、電話，以及7-11取貨門市的店名(或店號)，我們會給您一組交貨便代碼
                 <br />
                 <span class="text-muted mt-2">
-                  貼心小叮嚀：取得交貨便代碼後請於四日內將您的機器寄出，超過四日該代碼即失效
+                  貼心小叮嚀：取得交貨便代碼後請於<span class="text-danger"
+                    >四日</span
+                  >內將您的機器寄出，超過四日該代碼即失效
                 </span>
               </td>
               <td align="center"></td>
@@ -333,8 +339,9 @@
                 <div class="text-primary">打包機器</div>
               </th>
               <td class="description">
-                ➤ 打包您的機器
-                (如右圖圖示)，打包前請先充飽電，並務必將集塵盒的垃圾清空
+                ➤ 打包您的機器 (如右圖圖示)，打包前<span class="text-danger"
+                  >請先充飽電，並務必將集塵盒的垃圾清空</span
+                >
 
                 <div class="mt-2 text-muted">
                   貼心小叮嚀：因為7-11寄件有體積材限制 (材積最長邊≦ 45cm；
@@ -412,8 +419,9 @@
             </tr>
             <tr>
               <td class="description">
-                ➤
-                再來會出現確認畫面(如右圖圖示，我們的寄件設定就是賣家(郭珍伶)與買家(陳小小))，請核對一下左下的交貨便代碼有沒有問題
+                ➤ 再來會出現確認畫面(如右圖圖示，我們的<span class="text-danger"
+                  >寄件設定就是賣家(郭珍伶)與買家(陳小小)</span
+                >)，請核對一下左下的交貨便代碼有沒有問題
               </td>
 
               <td align="center">
@@ -459,7 +467,10 @@
             </tr>
             <tr>
               <td class="description">
-                ➤ 寄件單貼在包裹上，這樣就可以去櫃台寄出了(交寄時不用付費)
+                ➤ 寄件單貼在包裹上，這樣就可以去櫃台寄出了<span
+                  class="text-danger"
+                  >(交寄時不用付費)</span
+                >
               </td>
 
               <td align="center">
