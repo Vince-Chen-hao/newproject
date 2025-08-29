@@ -292,66 +292,67 @@
           />
         </div>
       </div>
-    </div>
 
-    <div class="mb-4 pt-1 pb-0 bg-dark">
-      <p class="text-white pb-1" style="font-size: 22px">
-        使用7-11交貨便操作流程
-      </p>
-    </div>
+      <div class="mb-4 pt-1 pb-0 bg-dark">
+        <p class="text-white pb-1" style="font-size: 22px">
+          使用7-11交貨便操作流程
+        </p>
+      </div>
 
-    <div class="mt-4">
-      <table class="table table-bordered">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">步驟</th>
-            <th scope="col">說明</th>
-            <th scope="col">示意圖片</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- 步驟一 -->
-          <tr>
-            <th scope="row">
-              步驟一<br />
-              取交貨便代碼
-            </th>
-            <td>
-              告知您的姓名、電話，以及7-11取貨門市的店名(或店號)，我們會給您一組交貨便代碼。
-              <br />
-              <span class="text-muted">
-                貼心小叮嚀：取得交貨便代碼後請於四日內將您的機器寄出，超過四日該代碼即失效。
-              </span>
-            </td>
-            <td>（示意圖放這）</td>
-          </tr>
+      <div class="mt-4">
+        <table class="table table-bordered">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">步驟</th>
+              <th scope="col">說明</th>
+              <th scope="col">示意圖片</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- 步驟一 -->
+            <tr>
+              <th scope="row">
+                步驟一<br />
+                取交貨便代碼
+              </th>
+              <td>
+                告知您的姓名、電話，以及7-11取貨門市的店名(或店號)，我們會給您一組交貨便代碼。
+                <br />
+                <span class="text-muted">
+                  貼心小叮嚀：取得交貨便代碼後請於四日內將您的機器寄出，超過四日該代碼即失效。
+                </span>
+              </td>
+              <td>（示意圖放這）</td>
+            </tr>
 
-          <!-- 步驟二 -->
-          <tr>
-            <th scope="row" rowspan="2">
-              步驟二<br />
-              打包機器
-            </th>
-            <td>
-              打包您的機器
-              (如下圖圖示)，打包前請先充飽電，並將集塵盒的垃圾清空。
-            </td>
-            <!-- 右側圖片合併 -->
-            <td rowspan="2">
-              <div>（示意圖 1）</div>
-              <div class="mt-2">（示意圖 2）</div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              貼心小叮嚀：因為7-11寄件有體積材限制 (材積最長邊≦ 45cm；
-              長＋寬＋高合計 ≦105cm；重量 ≦ 5kg)，
-              包裝時請注意箱子的大小以免超過限制，並以氣泡紙或報紙放入當作緩衝，
-              以減少機器在運送過程中發生碰撞。
-            </td>
-          </tr>
-        </tbody>
-      </table>
+            <!-- 步驟二 -->
+            <tr>
+              <th scope="row" rowspan="2">
+                步驟二<br />
+                打包機器
+              </th>
+              <td>
+                打包您的機器
+                (如下圖圖示)，打包前請先充飽電，並將集塵盒的垃圾清空。
+              </td>
+              <!-- 右側圖片合併 -->
+              <td>
+                <div>（示意圖 1）</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                貼心小叮嚀：因為7-11寄件有體積材限制 (材積最長邊≦ 45cm；
+                長＋寬＋高合計 ≦105cm；重量 ≦ 5kg)，
+                包裝時請注意箱子的大小以免超過限制，並以氣泡紙或報紙放入當作緩衝，
+                以減少機器在運送過程中發生碰撞。
+              </td>
+
+              <td>（示意圖 2）</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </template>
