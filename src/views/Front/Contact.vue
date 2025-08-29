@@ -293,13 +293,13 @@
         </div>
       </div>
 
-      <div class="mb-4 pt-1 pb-0 bg-dark">
+      <div class="mb-3 pt-1 pb-0 bg-dark">
         <p class="text-white pb-1" style="font-size: 22px">
           7-11交貨便操作流程
         </p>
       </div>
 
-      <div class="mt-3" style="font-size: 16px">
+      <div class="text-left" style="font-size: 17px">
         ⭐使用7-11交貨便<span class="text-danger">(來回皆免運費)</span>
       </div>
 
