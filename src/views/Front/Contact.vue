@@ -283,7 +283,7 @@
         </div>
       </div>
 
-      <div class="row text-left mb-4">
+      <div class="row text-left mb-5">
         <div class="col-md-6">
           <img
             src="../../assets/images/Serve_Img.png"
