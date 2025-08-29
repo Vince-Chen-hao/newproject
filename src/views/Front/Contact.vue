@@ -319,7 +319,7 @@
                 ➤
                 告知您的姓名、電話，以及7-11取貨門市的店名(或店號)，我們會給您一組交貨便代碼。
                 <br />
-                <span class="text-muted">
+                <span class="text-muted mt-2">
                   貼心小叮嚀：取得交貨便代碼後請於四日內將您的機器寄出，超過四日該代碼即失效。
                 </span>
               </td>
@@ -350,9 +350,7 @@
                     src="../../assets/images/delivery/Pic1.jpg"
                     class="fancyboxImg"
                 /></a>
-                <div class="mt-1 text-danger" style="font-size: 13px">
-                  *點圖片可放大
-                </div>
+                <div class="mt-1 text-danger clickpic">*點圖片放大</div>
               </td>
             </tr>
             <tr>
@@ -366,9 +364,7 @@
                     src="../../assets/images/delivery/Pic2.jpg"
                     class="fancyboxImg"
                 /></a>
-                <div class="mt-1 text-danger" style="font-size: 13px">
-                  *點圖片可放大
-                </div>
+                <div class="mt-1 text-danger clickpic">*點圖片放大</div>
               </td>
             </tr>
 
@@ -384,9 +380,7 @@
                     src="../../assets/images/delivery/Pic3.jpg"
                     class="fancyboxImg"
                 /></a>
-                <div class="mt-1 text-danger" style="font-size: 13px">
-                  *點圖片可放大
-                </div>
+                <div class="mt-1 text-danger clickpic">*點圖片放大</div>
               </td>
             </tr>
             <tr>
@@ -400,9 +394,7 @@
                     src="../../assets/images/delivery/Pic4.jpg"
                     class="fancyboxImg"
                 /></a>
-                <div class="mt-1 text-danger" style="font-size: 13px">
-                  *點圖片可放大
-                </div>
+                <div class="mt-1 text-danger clickpic">*點圖片放大</div>
               </td>
             </tr>
 
@@ -417,9 +409,7 @@
                     src="../../assets/images/delivery/Pic5.jpg"
                     class="fancyboxImg"
                 /></a>
-                <div class="mt-1 text-danger" style="font-size: 13px">
-                  *點圖片可放大
-                </div>
+                <div class="mt-1 text-danger clickpic">*點圖片放大</div>
               </td>
             </tr>
             <tr>
@@ -434,9 +424,7 @@
                     src="../../assets/images/delivery/Pic6.jpg"
                     class="fancyboxImg"
                 /></a>
-                <div class="mt-1 text-danger" style="font-size: 13px">
-                  *點圖片可放大
-                </div>
+                <div class="mt-1 text-danger clickpic">*點圖片放大</div>
               </td>
             </tr>
 
@@ -451,9 +439,7 @@
                     src="../../assets/images/delivery/Pic7.jpg"
                     class="fancyboxImg"
                 /></a>
-                <div class="mt-1 text-danger" style="font-size: 13px">
-                  *點圖片可放大
-                </div>
+                <div class="mt-1 text-danger clickpic">*點圖片放大</div>
               </td>
             </tr>
 
@@ -470,9 +456,7 @@
                     src="../../assets/images/delivery/Pic8.jpg"
                     class="fancyboxImg"
                 /></a>
-                <div class="mt-1 text-danger" style="font-size: 13px">
-                  *點圖片可放大
-                </div>
+                <div class="mt-1 text-danger clickpic">*點圖片放大</div>
               </td>
             </tr>
             <tr>
@@ -486,20 +470,23 @@
                     src="../../assets/images/delivery/Pic9.jpg"
                     class="fancyboxImg"
                 /></a>
-                <div class="mt-1 text-danger" style="font-size: 13px">
-                  *點圖片可放大
-                </div>
+                <div class="mt-1 text-danger clickpic">*點圖片放大</div>
               </td>
             </tr>
           </tbody>
         </table>
 
-        <div class="mt-4 text-left">
+        <div class="my-5 text-left">
           <div class="text-primary h5 mb-3">洗畢歸還</div>
-          <div>➤ 清潔完後,會利用【7-11超商取貨付款】將機器寄還給您。</div>
+          <div>▶ 清潔完後,會利用【7-11超商取貨付款】將機器寄還給您。</div>
         </div>
       </div>
     </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
   </div>
 </template>
 
@@ -650,6 +637,10 @@ export default {
     height: 150px;
     width: auto;
   }
+
+  .clickpic {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -677,6 +668,10 @@ export default {
     height: auto;
     width: 55px;
   }
+
+  .clickpic {
+    font-size: 11px;
+  }
 }
 
 .table td,
@@ -692,5 +687,9 @@ export default {
 .table th.step,
 .table td.image {
   text-align: center;
+}
+
+.thead-dark {
+  background-color: #5e6b75;
 }
 </style>
