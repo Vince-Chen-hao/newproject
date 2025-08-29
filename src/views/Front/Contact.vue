@@ -392,8 +392,83 @@
                 /></a>
               </td>
             </tr>
+
+            <tr>
+              <td class="description">
+                ▼ 輸入「 我們給您的那一組交貨便代碼」。
+              </td>
+
+              <td align="center">
+                <a :href="fancyboxImg5" data-fancybox="images"
+                  ><img
+                    src="../../assets/images/delivery/Pic5.jpg"
+                    class="fancyboxImg"
+                /></a>
+              </td>
+            </tr>
+            <tr>
+              <td class="description">
+                再來會出現確認畫面(如下圖圖示，我們的寄件設定就是賣家(郭珍伶)與買家(陳小小))，核對一下左下的交貨便代碼有沒有問題。
+              </td>
+
+              <td align="center">
+                <a :href="fancyboxImg6" data-fancybox="images"
+                  ><img
+                    src="../../assets/images/delivery/Pic6.jpg"
+                    class="fancyboxImg"
+                /></a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="description">
+                然後接著後續的操作，就可以將寄件單印出來了。
+              </td>
+
+              <td align="center">
+                <a :href="fancyboxImg7" data-fancybox="images"
+                  ><img
+                    src="../../assets/images/delivery/Pic7.jpg"
+                    class="fancyboxImg"
+                /></a>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" rowspan="2">
+                <div class="mb-1">步驟四</div>
+                <div class="text-primary">至櫃台交寄</div>
+              </th>
+              <td class="description">印出來的寄件單長這樣。</td>
+
+              <td align="center">
+                <a :href="fancyboxImg8" data-fancybox="images"
+                  ><img
+                    src="../../assets/images/delivery/Pic8.jpg"
+                    class="fancyboxImg"
+                /></a>
+              </td>
+            </tr>
+            <tr>
+              <td class="description">
+                寄件單貼在包裹上，這樣就可以去櫃台寄出了(交寄時不用付費)。
+              </td>
+
+              <td align="center">
+                <a :href="fancyboxImg9" data-fancybox="images"
+                  ><img
+                    src="../../assets/images/delivery/Pic9.jpg"
+                    class="fancyboxImg"
+                /></a>
+              </td>
+            </tr>
           </tbody>
         </table>
+
+        <div class="mt-4">
+          <div class="text-primary h5 mb-3">洗畢歸還</div>
+          <div>清潔完後,會利用【7-11超商取貨付款】將機器寄還給您。</div>
+        </div>
       </div>
     </div>
   </div>
