@@ -696,4 +696,17 @@ export default {
 .thead-dark {
   background-color: #5e6b75;
 }
+
+.table .thead-dark th {
+  color: #fff;
+  background-color: #42505f;
+  border-color: #42505f;
+}
+
+.table-bordered thead td,
+.table-bordered thead th {
+  border-bottom-width: 0px;
+  padding: 3px;
+  font-weight: 400;
+}
 </style>
