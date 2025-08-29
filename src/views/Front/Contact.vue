@@ -486,15 +486,14 @@
         </table>
 
         <div class="mt-3 text-left">
-          <iframe
-            width="1000px"
-            height="562px"
-            src="https://www.youtube.com/embed/EMn8CqGGP-o?autoplay=1&mute=1&loop=1&playlist=EMn8CqGGP-o"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/EMn8CqGGP-o?autoplay=1&mute=1&loop=1&playlist=EMn8CqGGP-o"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
 
         <div class="my-5 text-left">
@@ -731,5 +730,21 @@ export default {
   border-bottom-width: 0px;
   padding: 3px;
   font-weight: 400;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 比例 */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 </style>
