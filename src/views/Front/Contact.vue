@@ -303,8 +303,8 @@
         <table class="table table-bordered">
           <thead class="thead-dark">
             <tr>
-              <th scope="col">步驟</th>
-              <th scope="col">說明</th>
+              <th scope="col" width="15%">步驟</th>
+              <th scope="col" width="50%">說明</th>
               <th scope="col">示意圖片</th>
             </tr>
           </thead>
@@ -312,8 +312,8 @@
             <!-- 步驟一 -->
             <tr>
               <th scope="row">
-                步驟一<br />
-                取交貨便代碼
+                <div class="mb-1">步驟一</div>
+                <div class="text-primary">取交貨便代碼</div>
               </th>
               <td>
                 告知您的姓名、電話，以及7-11取貨門市的店名(或店號)，我們會給您一組交貨便代碼。
@@ -322,14 +322,21 @@
                   貼心小叮嚀：取得交貨便代碼後請於四日內將您的機器寄出，超過四日該代碼即失效。
                 </span>
               </td>
-              <td>（示意圖放這）</td>
+              <td></td>
+              <td align="center">
+                <a :href="fancyboxImg1" data-fancybox="images"
+                  ><img
+                    src="../../assets/images/delivery/Pic1.jpg"
+                    class="img-fluid"
+                /></a>
+              </td>
             </tr>
 
             <!-- 步驟二 -->
             <tr>
               <th scope="row" rowspan="2">
-                步驟二<br />
-                打包機器
+                <div class="mb-1">步驟二</div>
+                <div class="text-primary">打包機器</div>
               </th>
               <td>
                 打包您的機器
@@ -339,8 +346,10 @@
               <td>
                 <div>
                   <td align="center">
-                    <a :href="fancyboxImg3" data-fancybox="images"
-                      ><img src="../../assets/images/message.png" width="50px"
+                    <a :href="fancyboxImg2" data-fancybox="images"
+                      ><img
+                        src="../../assets/images/delivery/Pic2.jpg"
+                        class="img-fluid"
                     /></a>
                   </td>
                 </div>
@@ -354,7 +363,13 @@
                 以減少機器在運送過程中發生碰撞。
               </td>
 
-              <td>（示意圖 2）</td>
+              <td align="center">
+                <a :href="fancyboxImg3" data-fancybox="images"
+                  ><img
+                    src="../../assets/images/delivery/Pic3.jpg"
+                    class="img-fluid"
+                /></a>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -383,7 +398,15 @@ export default {
 
   data() {
     return {
-      fancyboxImg3: require("@/assets/images/message.png"),
+      fancyboxImg1: require("@/assets/images/delivery/Pic1.jpg"),
+      fancyboxImg2: require("@/assets/images/delivery/Pic2.jpg"),
+      fancyboxImg3: require("@/assets/images/delivery/Pic3.jpg"),
+      fancyboxImg4: require("@/assets/images/delivery/Pic4.jpg"),
+      fancyboxImg5: require("@/assets/images/delivery/Pic5.jpg"),
+      fancyboxImg6: require("@/assets/images/delivery/Pic6.jpg"),
+      fancyboxImg7: require("@/assets/images/delivery/Pic7.jpg"),
+      fancyboxImg8: require("@/assets/images/delivery/Pic8.jpg"),
+      fancyboxImg9: require("@/assets/images/delivery/Pic9.jpg"),
     };
   },
 
