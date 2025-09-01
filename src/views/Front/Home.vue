@@ -93,7 +93,7 @@
             data-ride="carousel"
           >
             <div class="carousel-inner">
-              <div class="carousel-item active w-100">
+              <!-- <div class="carousel-item active w-100">
                 <a href="https://lin.ee/dhcKcoE" target="_blank">
                   <img
                     src="../../assets/images/MotherDay_mb.jpg"
@@ -101,9 +101,9 @@
                     alt="..."
                   />
                 </a>
-              </div>
+              </div> -->
 
-              <div class="carousel-item w-100">
+              <div class="carousel-item w-100 active">
                 <a href="https://lin.ee/dhcKcoE" target="_blank">
                   <img
                     src="../../assets/images/home13_mb.png"
@@ -114,7 +114,7 @@
               </div>
             </div>
 
-            <a
+            <!-- <a
               class="carousel-control-prev"
               href="#carouselExampleIndicators"
               role="button"
@@ -137,7 +137,7 @@
                 aria-hidden="true"
               ></span>
               <span class="sr-only">Next</span>
-            </a>
+            </a> -->
           </div>
         </div>
 
@@ -147,7 +147,7 @@
             class="carousel slide"
             data-ride="carousel"
           >
-            <ol class="carousel-indicators">
+            <!-- <ol class="carousel-indicators">
               <li
                 data-target="#carouselExampleIndicators"
                 data-slide-to="0"
@@ -157,9 +157,9 @@
                 data-target="#carouselExampleIndicators"
                 data-slide-to="1"
               ></li>
-            </ol>
+            </ol> -->
             <div class="carousel-inner">
-              <div class="carousel-item active w-100">
+              <!-- <div class="carousel-item active w-100">
                 <a href="https://lin.ee/dhcKcoE" target="_blank">
                   <img
                     src="../../assets/images/MotherDay.jpg"
@@ -167,9 +167,9 @@
                     alt="..."
                   />
                 </a>
-              </div>
+              </div> -->
 
-              <div class="carousel-item w-100">
+              <div class="carousel-item active w-100">
                 <a href="https://lin.ee/dhcKcoE" target="_blank">
                   <img
                     src="../../assets/images/home13.png"
@@ -180,7 +180,7 @@
               </div>
             </div>
 
-            <a
+            <!-- <a
               class="carousel-control-prev"
               href="#carouselExampleIndicators"
               role="button"
@@ -203,7 +203,7 @@
                 aria-hidden="true"
               ></span>
               <span class="sr-only">Next</span>
-            </a>
+            </a> -->
           </div>
         </div>
       </section>
