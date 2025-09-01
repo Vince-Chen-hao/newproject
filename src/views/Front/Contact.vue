@@ -487,7 +487,7 @@
 
         <div class="mt-3 text-left">
           <div class="text-left mb-3" style="font-size: 17px">
-            🎬觀看影片帶您快速了解寄件流程
+            👇觀看影片帶您快速了解寄件流程
           </div>
           <div class="video-container">
             <iframe
