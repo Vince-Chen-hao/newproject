@@ -485,7 +485,7 @@
           </tbody>
         </table>
 
-        <div class="mt-3 text-left">
+        <div class="mt-4 text-left">
           <div class="text-left mb-3" style="font-size: 17px">
             👇觀看影片帶您快速了解寄件流程
           </div>
