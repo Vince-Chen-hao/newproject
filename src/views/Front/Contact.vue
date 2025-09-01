@@ -488,7 +488,7 @@
         <div class="mt-3 text-left">
           <div class="video-container">
             <iframe
-              src="https://www.youtube.com/embed/EMn8CqGGP-o?autoplay=1&mute=1&loop=1&playlist=EMn8CqGGP-o"
+              src="https://www.youtube.com/embed/EMn8CqGGP-o?mute=1&loop=1&playlist=EMn8CqGGP-o"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
