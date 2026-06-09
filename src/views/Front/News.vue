@@ -91,7 +91,12 @@
 </template>
 
 <script>
+  import { buildMetaInfo } from '@/utils/seo'
+
   export default {
+    metaInfo() {
+      return buildMetaInfo(this.$route)
+    },
     data() {
       return {}
     },
