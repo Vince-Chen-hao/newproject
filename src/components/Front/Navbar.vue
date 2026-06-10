@@ -12,9 +12,14 @@
       style="background: #14181a"
     >
       <div class="container">
-        <a href="index.html" class="navbar-brand">
-          <img src="../../assets/images/Logo8.png" width="150px" alt="" />
-        </a>
+        <router-link to="/" class="navbar-brand">
+          <img
+            src="../../assets/images/Logo8.png"
+            width="150"
+            height="75"
+            alt="清清小森職人洗塵"
+          />
+        </router-link>
         <button
           class="navbar-toggler"
           data-toggle="collapse"
@@ -117,11 +122,6 @@ export default {
     closeMenu() {
       $("#navbarSupportedContent").collapse("hide");
     },
-  },
-
-  mounted() {
-    const navbarCollapse = $("#navbarSupportedContent");
-    console.log(navbarCollapse); // 查看這裡是否返回正確的元素
   },
 
   // computed: {

@@ -85,133 +85,27 @@
       </div>
 
       <!-- SHOWCASE SLIDER -->
-      <section id="showcase" style="margin-top: 80px">
-        <div class="MbDevice">
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide hero-carousel hero-carousel--mobile"
-            data-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <!-- <div class="carousel-item active w-100">
-                <a href="https://lin.ee/dhcKcoE" target="_blank">
-                  <img
-                    src="../../assets/images/MotherDay_mb.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </a>
-              </div> -->
-
-              <div class="carousel-item w-100 active">
-                <a href="https://lin.ee/dhcKcoE" target="_blank">
-                  <img
-                    src="../../assets/images/home13_mb.png"
-                    class="d-block w-100"
-                    width="903"
-                    height="447"
-                    decoding="async"
-                    alt="清清小森 Dyson 清洗服務"
-                  />
-                </a>
-              </div>
-            </div>
-
-            <!-- <a
-              class="carousel-control-prev"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Next</span>
-            </a> -->
-          </div>
-        </div>
-
-        <div class="PcDevice">
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide hero-carousel hero-carousel--desktop"
-            data-ride="carousel"
-          >
-            <!-- <ol class="carousel-indicators">
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="0"
-                class="active"
-              ></li>
-              <li
-                data-target="#carouselExampleIndicators"
-                data-slide-to="1"
-              ></li>
-            </ol> -->
-            <div class="carousel-inner">
-              <!-- <div class="carousel-item active w-100">
-                <a href="https://lin.ee/dhcKcoE" target="_blank">
-                  <img
-                    src="../../assets/images/MotherDay.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </a>
-              </div> -->
-
-              <div class="carousel-item active w-100">
-                <a href="https://lin.ee/dhcKcoE" target="_blank">
-                  <img
-                    src="../../assets/images/home13.png"
-                    class="d-block w-100"
-                    width="1400"
-                    height="550"
-                    decoding="async"
-                    alt="清清小森 Dyson 清洗服務"
-                  />
-                </a>
-              </div>
-            </div>
-
-            <!-- <a
-              class="carousel-control-prev"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Next</span>
-            </a> -->
-          </div>
-        </div>
+      <section id="showcase">
+        <a
+          href="https://lin.ee/dhcKcoE"
+          target="_blank"
+          class="hero-picture"
+        >
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcset="../../assets/images/home13_mb.png"
+            />
+            <img
+              src="../../assets/images/home13.png"
+              width="1400"
+              height="550"
+              fetchpriority="high"
+              decoding="async"
+              alt="清清小森 Dyson 清洗服務"
+            />
+          </picture>
+        </a>
       </section>
 
       <section id="CategoryList">
@@ -542,6 +436,7 @@
                   <video
                     src="../../../public/clean2.mp4"
                     controls
+                    preload="none"
                     poster="../../assets/images/video_img2.jpg"
                   ></video>
                 </div>
@@ -844,6 +739,7 @@
                 <video
                   src="../../../public/clean.mp4"
                   controls
+                  preload="none"
                   poster="../../assets/images/video_img.png"
                 ></video>
               </div>
@@ -967,39 +863,42 @@ export default {
   cursor: pointer;
 }
 
+#showcase {
+  margin-top: 101px;
+}
+
 .l-bg-cover {
   background-position: center center;
   background-size: cover;
 }
 
-.hero-carousel,
-.hero-carousel .carousel-inner,
-.hero-carousel .carousel-item,
-.hero-carousel .carousel-item > a {
+.hero-picture,
+.hero-picture picture {
+  display: block;
   width: 100%;
 }
 
-.hero-carousel--desktop,
-.hero-carousel--desktop .carousel-inner,
-.hero-carousel--desktop .carousel-item {
+.hero-picture {
   aspect-ratio: 1400 / 550;
+  overflow: hidden;
+  background: #eef1f3;
 }
 
-.hero-carousel--mobile,
-.hero-carousel--mobile .carousel-inner,
-.hero-carousel--mobile .carousel-item {
-  aspect-ratio: 903 / 447;
-}
-
-.hero-carousel .carousel-item > a {
-  display: block;
+.hero-picture picture {
   height: 100%;
 }
 
-.hero-carousel .carousel-item img {
+.hero-picture img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .hero-picture {
+    aspect-ratio: 903 / 447;
+  }
 }
 
 .carousel-item {

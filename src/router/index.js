@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import FrontLayout from '@/views/Front/Layout.vue'
+import Home from '@/views/Front/Home.vue'
 
 Vue.use(VueRouter)
 
@@ -21,7 +23,7 @@ export default new VueRouter({
     {
       path: '/',
       name: 'Layout',
-      component: () => import('@/views/Front/Layout.vue'),
+      component: FrontLayout,
       children: [
         {
           path: '',
@@ -34,7 +36,7 @@ export default new VueRouter({
               '清清小森,Dyson清洗,戴森清洗,Dyson維修,台北吸塵器清洗,萬華吸塵器清洗,吸塵器深層清潔',
           },
 
-          component: () => import('@/views/Front/Home.vue'),
+          component: Home,
         },
 
         {
