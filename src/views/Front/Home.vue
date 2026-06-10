@@ -860,12 +860,13 @@ export default {
 }
 
 #showcase {
-  margin-top: 101px;
+  margin-top: 89px;
+  border-top: 6px solid #14181a;
 }
 
 @media (max-width: 767.98px) {
   #showcase {
-    margin-top: 68px;
+    margin-top: 62px;
   }
 }
 
