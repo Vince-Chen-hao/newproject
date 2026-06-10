@@ -863,6 +863,12 @@ export default {
   margin-top: 101px;
 }
 
+@media (max-width: 767.98px) {
+  #showcase {
+    margin-top: 68px;
+  }
+}
+
 .l-bg-cover {
   background-position: center center;
   background-size: cover;

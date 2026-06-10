@@ -15,8 +15,7 @@
         <router-link to="/" class="navbar-brand">
           <img
             src="../../assets/images/Logo8.png"
-            width="150"
-            height="75"
+            class="brand-logo"
             alt="清清小森職人洗塵"
           />
         </router-link>
@@ -206,5 +205,36 @@ export default {
   font-size: 11px;
   background-color: #df6b57;
   color: #fff;
+}
+
+.brand-logo {
+  display: block;
+  width: 150px;
+  height: auto;
+}
+
+@media (max-width: 767.98px) {
+  .navbar {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .brand-logo {
+    width: 118px;
+  }
+
+  .navbar-toggler {
+    padding: 5px 8px;
+  }
+
+  .navbar-toggler-icon {
+    width: 24px;
+    height: 24px;
+  }
 }
 </style>
