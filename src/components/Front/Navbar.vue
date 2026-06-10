@@ -215,6 +215,7 @@ export default {
 
 @media (max-width: 767.98px) {
   .navbar {
+    height: 62px;
     padding-top: 6px;
     padding-bottom: 6px;
   }

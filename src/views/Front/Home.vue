@@ -861,7 +861,6 @@ export default {
 
 #showcase {
   margin-top: 89px;
-  border-top: 6px solid #14181a;
 }
 
 @media (max-width: 767.98px) {
