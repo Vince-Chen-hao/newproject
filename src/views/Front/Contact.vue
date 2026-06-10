@@ -222,7 +222,7 @@
 
         <div class="col-md-3 col-6 mb-3 image-container">
           <img
-            src="../../assets/images/price/v8.png"
+            src="../../assets/images/price/v8_2.png"
             class="img-fluid"
             alt=""
           />
