@@ -89,7 +89,7 @@
         <div class="MbDevice">
           <div
             id="carouselExampleIndicators"
-            class="carousel slide"
+            class="carousel slide hero-carousel hero-carousel--mobile"
             data-ride="carousel"
           >
             <div class="carousel-inner">
@@ -108,7 +108,10 @@
                   <img
                     src="../../assets/images/home13_mb.png"
                     class="d-block w-100"
-                    alt="..."
+                    width="903"
+                    height="447"
+                    decoding="async"
+                    alt="清清小森 Dyson 清洗服務"
                   />
                 </a>
               </div>
@@ -144,7 +147,7 @@
         <div class="PcDevice">
           <div
             id="carouselExampleIndicators"
-            class="carousel slide"
+            class="carousel slide hero-carousel hero-carousel--desktop"
             data-ride="carousel"
           >
             <!-- <ol class="carousel-indicators">
@@ -174,7 +177,10 @@
                   <img
                     src="../../assets/images/home13.png"
                     class="d-block w-100"
-                    alt="..."
+                    width="1400"
+                    height="550"
+                    decoding="async"
+                    alt="清清小森 Dyson 清洗服務"
                   />
                 </a>
               </div>
@@ -964,6 +970,36 @@ export default {
 .l-bg-cover {
   background-position: center center;
   background-size: cover;
+}
+
+.hero-carousel,
+.hero-carousel .carousel-inner,
+.hero-carousel .carousel-item,
+.hero-carousel .carousel-item > a {
+  width: 100%;
+}
+
+.hero-carousel--desktop,
+.hero-carousel--desktop .carousel-inner,
+.hero-carousel--desktop .carousel-item {
+  aspect-ratio: 1400 / 550;
+}
+
+.hero-carousel--mobile,
+.hero-carousel--mobile .carousel-inner,
+.hero-carousel--mobile .carousel-item {
+  aspect-ratio: 903 / 447;
+}
+
+.hero-carousel .carousel-item > a {
+  display: block;
+  height: 100%;
+}
+
+.hero-carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .carousel-item {

@@ -198,7 +198,7 @@
 
         <div class="col-md-3 col-6 mb-3 image-container">
           <img
-            src="../../assets/images/price/v12.jpg"
+            src="../../assets/images/price/v12.png"
             class="img-fluid"
             alt=""
           />
@@ -222,7 +222,7 @@
 
         <div class="col-md-3 col-6 mb-3 image-container">
           <img
-            src="../../assets/images/price/v8.jpg"
+            src="../../assets/images/price/v8.png"
             class="img-fluid"
             alt=""
           />
@@ -238,7 +238,7 @@
 
         <div class="col-md-3 col-6 mb-3 image-container">
           <img
-            src="../../assets/images/price/v6.jpg"
+            src="../../assets/images/price/v6.png"
             class="img-fluid"
             alt=""
           />
@@ -493,7 +493,15 @@
             <iframe
               src="https://www.youtube.com/embed/EMn8CqGGP-o?mute=1&loop=1&playlist=EMn8CqGGP-o"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
               allowfullscreen
             ></iframe>
           </div>
